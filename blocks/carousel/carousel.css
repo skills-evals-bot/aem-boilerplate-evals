@@ -18,7 +18,8 @@
   align-items: center;
   gap: 1rem;
   padding: 2rem;
-  height: 400px;
+  min-height: 400px;
+  box-sizing: border-box;
 }
 
 .carousel-image {
@@ -96,4 +97,24 @@
 .carousel-prev:hover,
 .carousel-next:hover {
   background: rgb(0 0 0 / 80%);
+}
+
+/* Mobile styles */
+@media (width < 600px) {
+  .carousel-slide {
+    padding: 1rem;
+    min-height: auto;
+  }
+
+  .carousel-image {
+    max-width: 100%;
+  }
+
+  .carousel-content {
+    max-width: 100%;
+  }
+
+  .carousel-content p {
+    font-size: 0.9rem;
+  }
 }
