@@ -13,12 +13,13 @@
 
 .carousel-slide {
   flex: 0 0 100%;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  padding: 2rem;
-  height: 400px;
+  padding: 1.5rem 2.5rem 3rem;
+  min-height: 400px;
 }
 
 .carousel-image {
@@ -79,9 +80,9 @@
   background: rgb(0 0 0 / 50%);
   color: white;
   border: none;
-  padding: 1rem;
+  padding: 0.75rem;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   z-index: 1;
 }
 
@@ -96,4 +97,16 @@
 .carousel-prev:hover,
 .carousel-next:hover {
   background: rgb(0 0 0 / 80%);
+}
+
+@media (width >= 600px) {
+  .carousel-slide {
+    padding: 2rem;
+  }
+
+  .carousel-prev,
+  .carousel-next {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
 }
