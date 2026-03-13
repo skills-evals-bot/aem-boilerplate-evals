@@ -30,4 +30,26 @@
     flex: 1;
     order: unset;
   }
+
+  /* z-pattern: alternate image side per row */
+  .columns.z-pattern > div:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  /* asymmetric splits */
+  .columns.split-33-66 > div > div:first-child {
+    flex: 1;
+  }
+
+  .columns.split-33-66 > div > div:last-child {
+    flex: 2;
+  }
+
+  .columns.split-66-33 > div > div:first-child {
+    flex: 2;
+  }
+
+  .columns.split-66-33 > div > div:last-child {
+    flex: 1;
+  }
 }
