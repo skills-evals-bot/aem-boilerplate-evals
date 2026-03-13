@@ -22,12 +22,32 @@
 @media (width >= 900px) {
   .columns > div {
     align-items: center;
-    flex-direction: unset;
+    flex-direction: row;
     gap: 24px;
   }
 
   .columns > div > div {
     flex: 1;
     order: unset;
+  }
+
+  .columns.z-pattern > div:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .columns.split-33-66.columns-2-cols > div > :first-child {
+    flex: 1;
+  }
+
+  .columns.split-33-66.columns-2-cols > div > :last-child {
+    flex: 2;
+  }
+
+  .columns.split-66-33.columns-2-cols > div > :first-child {
+    flex: 2;
+  }
+
+  .columns.split-66-33.columns-2-cols > div > :last-child {
+    flex: 1;
   }
 }
