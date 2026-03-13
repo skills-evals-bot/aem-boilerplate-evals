@@ -1,0 +1,81 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e5]:
+      - paragraph [ref=e8]:
+        - link "Boilerplate" [ref=e9] [cursor=pointer]:
+          - /url: /
+      - list [ref=e12]:
+        - listitem [ref=e13] [cursor=pointer]:
+          - paragraph [ref=e14]: Default Content
+        - listitem [ref=e15] [cursor=pointer]:
+          - paragraph [ref=e16]: Sample Blocks
+        - listitem [ref=e17]:
+          - paragraph [ref=e18]:
+            - link "Getting Started" [ref=e19] [cursor=pointer]:
+              - /url: https://www.aem.live/developer/tutorial
+        - listitem [ref=e20]:
+          - paragraph [ref=e21]:
+            - link "Documentation" [ref=e22] [cursor=pointer]:
+              - /url: https://www.aem.live/docs/
+      - paragraph [ref=e25]:
+        - link [ref=e26] [cursor=pointer]:
+          - /url: /docs/library/blocks/modals/sample-search
+  - main [ref=e28]:
+    - heading "Our Products" [level=2] [ref=e31]
+    - list [ref=e35]:
+      - listitem [ref=e36]:
+        - generic [ref=e37]:
+          - img "Wireless Headphones" [ref=e39]
+          - generic [ref=e40]: Sale
+        - generic [ref=e41]:
+          - heading "Wireless Headphones" [level=3] [ref=e42]
+          - paragraph [ref=e43]: Premium noise-canceling headphones with 30-hour battery life and crystal-clear audio.
+          - paragraph [ref=e44]:
+            - link "Shop Now" [ref=e45] [cursor=pointer]:
+              - /url: /products/headphones
+      - listitem [ref=e46]:
+        - generic [ref=e47]:
+          - img "Smart Watch" [ref=e49]
+          - generic [ref=e50]: New
+        - generic [ref=e51]:
+          - heading "Smart Watch" [level=3] [ref=e52]
+          - paragraph [ref=e53]: Track your fitness goals with GPS, heart rate monitor, and 7-day battery life.
+          - paragraph [ref=e54]:
+            - link "Learn More" [ref=e55] [cursor=pointer]:
+              - /url: /products/smartwatch
+      - listitem [ref=e56]:
+        - img "Portable Speaker" [ref=e59]
+        - generic [ref=e60]:
+          - heading "Portable Speaker" [level=3] [ref=e61]
+          - paragraph [ref=e62]: Waterproof Bluetooth speaker with 360-degree sound and 12-hour playtime.
+          - paragraph [ref=e63]:
+            - link "Buy Now" [ref=e64] [cursor=pointer]:
+              - /url: /products/speaker
+      - listitem [ref=e65]:
+        - generic [ref=e66]:
+          - img "Laptop Stand" [ref=e68]
+          - generic [ref=e69]: Featured
+        - generic [ref=e70]:
+          - heading "Laptop Stand" [level=3] [ref=e71]
+          - paragraph [ref=e72]: Ergonomic aluminum stand with adjustable height for comfortable working.
+          - paragraph [ref=e73]:
+            - link "View Details" [ref=e74] [cursor=pointer]:
+              - /url: /products/laptop-stand
+  - contentinfo [ref=e75]:
+    - generic [ref=e79]:
+      - paragraph [ref=e80]: Copyright © 2021 Adobe. All rights reserved.
+      - paragraph [ref=e81]:
+        - link "Privacy" [ref=e82] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy.html
+        - text: /
+        - link "Terms of Use" [ref=e83] [cursor=pointer]:
+          - /url: https://www.adobe.com/legal/terms.html
+        - text: /
+        - link "Cookie preferences" [ref=e84] [cursor=pointer]:
+          - /url: https://www.adobe.com/#openPrivacy
+        - text: /
+        - link "Do not sell my personal information" [ref=e85] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy/ca-rights.html
+        - text: /
+        - link "AdChoices" [ref=e86] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy/opt-out.html#interest-based-ads
