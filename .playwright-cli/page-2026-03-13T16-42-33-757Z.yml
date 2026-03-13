@@ -1,0 +1,100 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e5]:
+      - paragraph [ref=e8]:
+        - link "Boilerplate" [ref=e9] [cursor=pointer]:
+          - /url: /
+      - list [ref=e12]:
+        - listitem [ref=e13] [cursor=pointer]:
+          - paragraph [ref=e14]: Default Content
+        - listitem [ref=e15] [cursor=pointer]:
+          - paragraph [ref=e16]: Sample Blocks
+        - listitem [ref=e17]:
+          - paragraph [ref=e18]:
+            - link "Getting Started" [ref=e19] [cursor=pointer]:
+              - /url: https://www.aem.live/developer/tutorial
+        - listitem [ref=e20]:
+          - paragraph [ref=e21]:
+            - link "Documentation" [ref=e22] [cursor=pointer]:
+              - /url: https://www.aem.live/docs/
+      - paragraph [ref=e25]:
+        - link [ref=e26] [cursor=pointer]:
+          - /url: /docs/library/blocks/modals/sample-search
+  - main [ref=e28]:
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - img "Mountain landscape at sunrise" [ref=e36]
+          - generic [ref=e37]:
+            - heading "Mountain Retreat" [level=2] [ref=e38]
+            - paragraph [ref=e39]: Escape to the peaks for a weekend of fresh air and stunning views.
+            - paragraph [ref=e40]:
+              - link "Learn more" [ref=e41] [cursor=pointer]:
+                - /url: /retreats/mountain
+        - generic [ref=e42]:
+          - img "Ocean waves on a sandy beach" [ref=e45]
+          - generic [ref=e46]:
+            - heading "Coastal Getaway" [level=2] [ref=e47]
+            - paragraph [ref=e48]: Relax on pristine beaches with crystal clear water.
+            - paragraph [ref=e49]:
+              - link "Book now" [ref=e50] [cursor=pointer]:
+                - /url: /getaways/coastal
+        - generic [ref=e51]:
+          - img "Dense forest trail in autumn" [ref=e54]
+          - generic [ref=e55]:
+            - heading "Forest Adventure" [level=2] [ref=e56]
+            - paragraph [ref=e57]: Explore winding trails through ancient forests, discover hidden waterfalls, experience wildlife up close, and reconnect with nature on this guided multi-day hiking expedition through some of the most beautiful and unspoiled wilderness areas in the region. Our expert guides will lead you through old-growth groves, along ridgeline paths with panoramic views, and to secluded camping spots where you can fall asleep under the stars. Whether you are a seasoned hiker or a curious beginner, this adventure offers something for everyone.
+            - paragraph [ref=e58]:
+              - link "Explore" [ref=e59] [cursor=pointer]:
+                - /url: /adventures/forest
+        - generic [ref=e60]:
+          - img "City skyline at night" [ref=e63]
+          - generic [ref=e64]:
+            - heading "Urban Discovery" [level=2] [ref=e65]
+            - paragraph [ref=e66]: Experience the energy of the city with curated tours and local favorites.
+            - paragraph [ref=e67]:
+              - link "See tours" [ref=e68] [cursor=pointer]:
+                - /url: /tours/urban
+        - generic [ref=e69]:
+          - img "Desert dunes at sunset" [ref=e72]
+          - generic [ref=e73]:
+            - heading "Desert Expedition" [level=2] [ref=e74]
+            - paragraph [ref=e75]: Traverse golden dunes and camp under endless desert skies.
+            - paragraph [ref=e76]:
+              - link "Plan your trip" [ref=e77] [cursor=pointer]:
+                - /url: /expeditions/desert
+        - generic [ref=e78]:
+          - img "Snowy mountain village" [ref=e81]
+          - generic [ref=e82]:
+            - heading "Winter Wonderland" [level=2] [ref=e83]
+            - paragraph [ref=e84]: Cozy cabins, fresh powder, and hot cocoa by the fire.
+            - paragraph [ref=e85]:
+              - link "View packages" [ref=e86] [cursor=pointer]:
+                - /url: /seasonal/winter
+      - generic [ref=e87]:
+        - button "Go to slide 1" [ref=e88] [cursor=pointer]
+        - button "Go to slide 2" [ref=e89] [cursor=pointer]
+        - button "Go to slide 3" [ref=e90] [cursor=pointer]
+        - button "Go to slide 4" [ref=e91] [cursor=pointer]
+        - button "Go to slide 5" [ref=e92] [cursor=pointer]
+        - button "Go to slide 6" [ref=e93] [cursor=pointer]
+      - button "Previous slide" [ref=e94] [cursor=pointer]: ❮
+      - button "Next slide" [ref=e95] [cursor=pointer]: ❯
+  - contentinfo [ref=e96]:
+    - generic [ref=e100]:
+      - paragraph [ref=e101]: Copyright © 2021 Adobe. All rights reserved.
+      - paragraph [ref=e102]:
+        - link "Privacy" [ref=e103] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy.html
+        - text: /
+        - link "Terms of Use" [ref=e104] [cursor=pointer]:
+          - /url: https://www.adobe.com/legal/terms.html
+        - text: /
+        - link "Cookie preferences" [ref=e105] [cursor=pointer]:
+          - /url: https://www.adobe.com/#openPrivacy
+        - text: /
+        - link "Do not sell my personal information" [ref=e106] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy/ca-rights.html
+        - text: /
+        - link "AdChoices" [ref=e107] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy/opt-out.html#interest-based-ads
