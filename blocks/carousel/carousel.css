@@ -8,17 +8,26 @@
 
 .carousel-track {
   display: flex;
+  width: 100%;
   transition: transform 0.5s ease;
 }
 
 .carousel-slide {
   flex: 0 0 100%;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  padding: 2rem;
-  height: 400px;
+  padding: 1rem;
+  min-height: 400px;
+  overflow: hidden;
+}
+
+@media (width >= 600px) {
+  .carousel-slide {
+    padding: 2rem;
+  }
 }
 
 .carousel-image {
@@ -34,6 +43,7 @@
 .carousel-content {
   text-align: center;
   max-width: 600px;
+  overflow-wrap: break-word;
 }
 
 .carousel-content h2,
@@ -52,7 +62,7 @@
   justify-content: center;
   gap: 0.5rem;
   padding: 1rem 0;
-  max-width: 120px;
+  max-width: none;
   margin: 0 auto;
 }
 
