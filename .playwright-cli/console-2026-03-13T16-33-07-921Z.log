@@ -1,0 +1,20 @@
+Total messages: 12 (Errors: 12, Warnings: 0)
+
+[ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://via.placeholder.com/750x563/3b63fb/ffffff?width=750&format=webply&optimize=medium:0
+[ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://via.placeholder.com/750x563/1d3ecf/ffffff?width=750&format=webply&optimize=medium:0
+[ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://via.placeholder.com/750x563/f8f8f8/131313?width=750&format=webply&optimize=medium:0
+[ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://via.placeholder.com/750x563/505050/ffffff?width=750&format=webply&optimize=medium:0
+[ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://via.placeholder.com/750x563/f8f8f8/131313?text=Product+4:0
+[ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://via.placeholder.com/750x563/505050/ffffff?text=Product+3:0
+[ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://via.placeholder.com/750x563/3b63fb/ffffff?text=Product+1:0
+[ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://via.placeholder.com/750x563/1d3ecf/ffffff?text=Product+2:0
+[ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://via.placeholder.com/750x563/3b63fb/ffffff?text=Product+5:0
+[ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://via.placeholder.com/750x563/1d3ecf/ffffff?text=Product+6:0
+TypeError: Cannot read properties of null (reading 'append')
+    at loadHeader (http://localhost:3479/scripts/aem.js:596:10)
+    at loadLazy (http://localhost:3479/scripts/scripts.js:158:3)
+    at loadPage (http://localhost:3479/scripts/scripts.js:185:9)
+TypeError: Cannot read properties of null (reading 'append')
+    at loadFooter (http://localhost:3479/scripts/aem.js:608:10)
+    at loadLazy (http://localhost:3479/scripts/scripts.js:167:3)
+    at async loadPage (http://localhost:3479/scripts/scripts.js:185:3)
