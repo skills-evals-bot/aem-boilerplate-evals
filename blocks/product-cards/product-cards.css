@@ -1,0 +1,107 @@
+.product-cards > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 24px;
+}
+
+.product-cards > ul > li {
+  min-width: 0;
+}
+
+.product-cards .product-cards-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d8dde6;
+  border-radius: 20px;
+  overflow: hidden;
+  background: var(--background-color);
+  box-shadow: 0 16px 40px rgb(19 31 54 / 8%);
+}
+
+.product-cards .product-cards-card-image {
+  position: relative;
+  background:
+    linear-gradient(135deg, rgb(225 239 255 / 80%), rgb(245 248 255 / 20%)),
+    #f4f7fb;
+}
+
+.product-cards .product-cards-card-image picture,
+.product-cards .product-cards-card-image img {
+  display: block;
+  width: 100%;
+}
+
+.product-cards .product-cards-card-image img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.product-cards .product-cards-card-badge {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #101828;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.product-cards .product-cards-card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 20px;
+}
+
+.product-cards .product-cards-card-title {
+  margin: 0;
+  font-size: 1.375rem;
+  line-height: 1.15;
+}
+
+.product-cards .product-cards-card-description {
+  color: #475467;
+}
+
+.product-cards .product-cards-card-description > *:first-child {
+  margin-top: 0;
+}
+
+.product-cards .product-cards-card-description > *:last-child {
+  margin-bottom: 0;
+}
+
+.product-cards .product-cards-card-cta {
+  margin-top: auto;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.product-cards .product-cards-card-cta:hover,
+.product-cards .product-cards-card-cta:focus-visible {
+  text-decoration: underline;
+}
+
+@media (width >= 600px) {
+  .product-cards > ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (width >= 900px) {
+  .product-cards > ul {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
