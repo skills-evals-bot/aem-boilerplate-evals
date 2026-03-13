@@ -1,0 +1,88 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e4]:
+      - button "Open navigation" [ref=e6]
+      - paragraph [ref=e10]:
+        - link "Boilerplate" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - paragraph [ref=e14]:
+        - link [ref=e15] [cursor=pointer]:
+          - /url: /docs/library/blocks/modals/sample-search
+  - main [ref=e17]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - img "Mountain landscape at sunrise" [ref=e25]
+          - generic [ref=e26]:
+            - heading "Mountain Retreat" [level=2] [ref=e27]
+            - paragraph [ref=e28]: Escape to the peaks for a weekend of fresh air and stunning views.
+            - paragraph [ref=e29]:
+              - link "Learn more" [ref=e30] [cursor=pointer]:
+                - /url: /retreats/mountain
+        - generic [ref=e31]:
+          - img "Ocean waves on a sandy beach" [ref=e34]
+          - generic [ref=e35]:
+            - heading "Coastal Getaway" [level=2] [ref=e36]
+            - paragraph [ref=e37]: Relax on pristine beaches with crystal clear water.
+            - paragraph [ref=e38]:
+              - link "Book now" [ref=e39] [cursor=pointer]:
+                - /url: /getaways/coastal
+        - generic [ref=e40]:
+          - img "Dense forest trail in autumn" [ref=e43]
+          - generic [ref=e44]:
+            - heading "Forest Adventure" [level=2] [ref=e45]
+            - paragraph [ref=e46]: Explore winding trails through ancient forests, discover hidden waterfalls, experience wildlife up close, and reconnect with nature on this guided multi-day hiking expedition through some of the most beautiful and unspoiled wilderness areas in the region. Our expert guides will lead you through old-growth groves, along ridgeline paths with panoramic views, and to secluded camping spots where you can fall asleep under the stars. Whether you are a seasoned hiker or a curious beginner, this adventure offers something for everyone.
+            - paragraph [ref=e47]:
+              - link "Explore" [ref=e48] [cursor=pointer]:
+                - /url: /adventures/forest
+        - generic [ref=e49]:
+          - img "City skyline at night" [ref=e52]
+          - generic [ref=e53]:
+            - heading "Urban Discovery" [level=2] [ref=e54]
+            - paragraph [ref=e55]: Experience the energy of the city with curated tours and local favorites.
+            - paragraph [ref=e56]:
+              - link "See tours" [ref=e57] [cursor=pointer]:
+                - /url: /tours/urban
+        - generic [ref=e58]:
+          - img "Desert dunes at sunset" [ref=e61]
+          - generic [ref=e62]:
+            - heading "Desert Expedition" [level=2] [ref=e63]
+            - paragraph [ref=e64]: Traverse golden dunes and camp under endless desert skies.
+            - paragraph [ref=e65]:
+              - link "Plan your trip" [ref=e66] [cursor=pointer]:
+                - /url: /expeditions/desert
+        - generic [ref=e67]:
+          - img "Snowy mountain village" [ref=e70]
+          - generic [ref=e71]:
+            - heading "Winter Wonderland" [level=2] [ref=e72]
+            - paragraph [ref=e73]: Cozy cabins, fresh powder, and hot cocoa by the fire.
+            - paragraph [ref=e74]:
+              - link "View packages" [ref=e75] [cursor=pointer]:
+                - /url: /seasonal/winter
+      - generic [ref=e76]:
+        - button "Go to slide 1" [ref=e77] [cursor=pointer]
+        - button "Go to slide 2" [ref=e78] [cursor=pointer]
+        - button "Go to slide 3" [ref=e79] [cursor=pointer]
+        - button "Go to slide 4" [ref=e80] [cursor=pointer]
+        - button "Go to slide 5" [ref=e81] [cursor=pointer]
+        - button "Go to slide 6" [ref=e82] [cursor=pointer]
+      - button "Previous slide" [ref=e83] [cursor=pointer]: ❮
+      - button "Next slide" [ref=e84] [cursor=pointer]: ❯
+  - contentinfo [ref=e85]:
+    - generic [ref=e89]:
+      - paragraph [ref=e90]: Copyright © 2021 Adobe. All rights reserved.
+      - paragraph [ref=e91]:
+        - link "Privacy" [ref=e92] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy.html
+        - text: /
+        - link "Terms of Use" [ref=e93] [cursor=pointer]:
+          - /url: https://www.adobe.com/legal/terms.html
+        - text: /
+        - link "Cookie preferences" [ref=e94] [cursor=pointer]:
+          - /url: https://www.adobe.com/#openPrivacy
+        - text: /
+        - link "Do not sell my personal information" [ref=e95] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy/ca-rights.html
+        - text: /
+        - link "AdChoices" [ref=e96] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy/opt-out.html#interest-based-ads
