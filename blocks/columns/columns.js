@@ -3,7 +3,7 @@ export default function decorate(block) {
   block.classList.add(`columns-${cols.length}-cols`);
 
   // setup image columns
-  [...block.children].forEach((row) => {
+  [...block.children].forEach((row, rowIndex) => {
     [...row.children].forEach((col) => {
       const pic = col.querySelector('picture');
       if (pic) {
@@ -14,5 +14,13 @@ export default function decorate(block) {
         }
       }
     });
+
+    // add row index for z-pattern variant
+    if (block.classList.contains('z-pattern')) {
+      row.classList.add(`row-${rowIndex + 1}`);
+      if ((rowIndex + 1) % 2 === 0) {
+        row.classList.add('reverse');
+      }
+    }
   });
 }
