@@ -1,0 +1,145 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e5]:
+      - paragraph [ref=e8]:
+        - link "Boilerplate" [ref=e9] [cursor=pointer]:
+          - /url: /
+      - list [ref=e12]:
+        - listitem [ref=e13] [cursor=pointer]:
+          - paragraph [ref=e14]: Default Content
+        - listitem [ref=e15] [cursor=pointer]:
+          - paragraph [ref=e16]: Sample Blocks
+        - listitem [ref=e17]:
+          - paragraph [ref=e18]:
+            - link "Getting Started" [ref=e19] [cursor=pointer]:
+              - /url: https://www.aem.live/developer/tutorial
+        - listitem [ref=e20]:
+          - paragraph [ref=e21]:
+            - link "Documentation" [ref=e22] [cursor=pointer]:
+              - /url: https://www.aem.live/docs/
+      - paragraph [ref=e25]:
+        - link [ref=e26] [cursor=pointer]:
+          - /url: /docs/library/blocks/modals/sample-search
+  - main [ref=e28]:
+    - heading "Default Columns" [level=2] [ref=e31]
+    - generic [ref=e34]:
+      - generic [ref=e35]:
+        - img "Modern office workspace with natural light" [ref=e38]
+        - generic [ref=e39]:
+          - heading "Flexible Workspaces" [level=3] [ref=e40]
+          - paragraph [ref=e41]: Our open-plan offices are designed to adapt to how your team works. Choose from quiet focus zones, collaborative areas, and casual meeting spots throughout the building.
+          - paragraph [ref=e42]:
+            - link "Explore spaces" [ref=e43] [cursor=pointer]:
+              - /url: /workspaces
+      - generic [ref=e44]:
+        - img "Team collaborating around a whiteboard" [ref=e47]
+        - generic [ref=e48]:
+          - heading "Built for Collaboration" [level=3] [ref=e49]
+          - paragraph [ref=e50]: Every floor features dedicated collaboration hubs with whiteboards, video conferencing, and comfortable seating for impromptu discussions and planned workshops.
+          - paragraph [ref=e51]:
+            - link "Learn more" [ref=e52] [cursor=pointer]:
+              - /url: /collaboration
+      - generic [ref=e53]:
+        - img "Rooftop garden with city views" [ref=e56]
+        - generic [ref=e57]:
+          - heading "Wellness & Balance" [level=3] [ref=e58]
+          - paragraph [ref=e59]: Step away from your desk and recharge in our rooftop garden, fitness center, or meditation rooms. We believe great work starts with taking care of yourself.
+          - paragraph [ref=e60]:
+            - link "See amenities" [ref=e61] [cursor=pointer]:
+              - /url: /wellness
+      - generic [ref=e62]:
+        - img "Sustainable building with green walls" [ref=e65]
+        - generic [ref=e66]:
+          - heading "Sustainability First" [level=3] [ref=e67]
+          - paragraph [ref=e68]: Our LEED-certified buildings use renewable energy, rainwater harvesting, and smart climate systems to minimize environmental impact without compromising comfort.
+          - paragraph [ref=e69]:
+            - link "Our commitment" [ref=e70] [cursor=pointer]:
+              - /url: /sustainability
+    - heading "Z-Pattern Columns" [level=2] [ref=e73]
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - img "Modern office workspace with natural light" [ref=e80]
+        - generic [ref=e81]:
+          - heading "Flexible Workspaces" [level=3] [ref=e82]
+          - paragraph [ref=e83]: Our open-plan offices are designed to adapt to how your team works. Choose from quiet focus zones, collaborative areas, and casual meeting spots throughout the building.
+          - paragraph [ref=e84]:
+            - link "Explore spaces" [ref=e85] [cursor=pointer]:
+              - /url: /workspaces
+      - generic [ref=e86]:
+        - img "Team collaborating around a whiteboard" [ref=e89]
+        - generic [ref=e90]:
+          - heading "Built for Collaboration" [level=3] [ref=e91]
+          - paragraph [ref=e92]: Every floor features dedicated collaboration hubs with whiteboards, video conferencing, and comfortable seating for impromptu discussions and planned workshops.
+          - paragraph [ref=e93]:
+            - link "Learn more" [ref=e94] [cursor=pointer]:
+              - /url: /collaboration
+      - generic [ref=e95]:
+        - img "Rooftop garden with city views" [ref=e98]
+        - generic [ref=e99]:
+          - heading "Wellness & Balance" [level=3] [ref=e100]
+          - paragraph [ref=e101]: Step away from your desk and recharge in our rooftop garden, fitness center, or meditation rooms. We believe great work starts with taking care of yourself.
+          - paragraph [ref=e102]:
+            - link "See amenities" [ref=e103] [cursor=pointer]:
+              - /url: /wellness
+      - generic [ref=e104]:
+        - img "Sustainable building with green walls" [ref=e107]
+        - generic [ref=e108]:
+          - heading "Sustainability First" [level=3] [ref=e109]
+          - paragraph [ref=e110]: Our LEED-certified buildings use renewable energy, rainwater harvesting, and smart climate systems to minimize environmental impact without compromising comfort.
+          - paragraph [ref=e111]:
+            - link "Our commitment" [ref=e112] [cursor=pointer]:
+              - /url: /sustainability
+    - heading "Split 33/66 Columns" [level=2] [ref=e115]
+    - generic [ref=e118]:
+      - generic [ref=e119]:
+        - img "Modern office workspace with natural light" [ref=e122]
+        - generic [ref=e123]:
+          - heading "Flexible Workspaces" [level=3] [ref=e124]
+          - paragraph [ref=e125]: Our open-plan offices are designed to adapt to how your team works. Choose from quiet focus zones, collaborative areas, and casual meeting spots throughout the building.
+          - paragraph [ref=e126]:
+            - link "Explore spaces" [ref=e127] [cursor=pointer]:
+              - /url: /workspaces
+      - generic [ref=e128]:
+        - img "Team collaborating around a whiteboard" [ref=e131]
+        - generic [ref=e132]:
+          - heading "Built for Collaboration" [level=3] [ref=e133]
+          - paragraph [ref=e134]: Every floor features dedicated collaboration hubs with whiteboards, video conferencing, and comfortable seating for impromptu discussions and planned workshops.
+          - paragraph [ref=e135]:
+            - link "Learn more" [ref=e136] [cursor=pointer]:
+              - /url: /collaboration
+    - heading "Split 66/33 Columns" [level=2] [ref=e139]
+    - generic [ref=e142]:
+      - generic [ref=e143]:
+        - generic [ref=e144]:
+          - heading "Sustainability First" [level=3] [ref=e145]
+          - paragraph [ref=e146]: Our LEED-certified buildings use renewable energy, rainwater harvesting, and smart climate systems to minimize environmental impact without compromising comfort.
+          - paragraph [ref=e147]:
+            - link "Our commitment" [ref=e148] [cursor=pointer]:
+              - /url: /sustainability
+        - img "Sustainable building with green walls" [ref=e151]
+      - generic [ref=e152]:
+        - generic [ref=e153]:
+          - heading "Wellness & Balance" [level=3] [ref=e154]
+          - paragraph [ref=e155]: Step away from your desk and recharge in our rooftop garden, fitness center, or meditation rooms. We believe great work starts with taking care of yourself.
+          - paragraph [ref=e156]:
+            - link "See amenities" [ref=e157] [cursor=pointer]:
+              - /url: /wellness
+        - img "Rooftop garden with city views" [ref=e160]
+  - contentinfo [ref=e161]:
+    - generic [ref=e165]:
+      - paragraph [ref=e166]: Copyright © 2021 Adobe. All rights reserved.
+      - paragraph [ref=e167]:
+        - link "Privacy" [ref=e168] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy.html
+        - text: /
+        - link "Terms of Use" [ref=e169] [cursor=pointer]:
+          - /url: https://www.adobe.com/legal/terms.html
+        - text: /
+        - link "Cookie preferences" [ref=e170] [cursor=pointer]:
+          - /url: https://www.adobe.com/#openPrivacy
+        - text: /
+        - link "Do not sell my personal information" [ref=e171] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy/ca-rights.html
+        - text: /
+        - link "AdChoices" [ref=e172] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy/opt-out.html#interest-based-ads
