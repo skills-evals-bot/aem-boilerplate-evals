@@ -12,7 +12,9 @@ function goToSlide(block, index) {
   if (idx < 0) idx = slides.length - 1;
   if (idx >= slides.length) idx = 0;
 
-  track.style.transform = `translateX(-${idx * 100}%)`;
+  slides.forEach((slide, i) => {
+    slide.classList.toggle('active', i === idx);
+  });
   block.dataset.currentSlide = idx;
 
   dots.forEach((dot, i) => {
@@ -98,6 +100,7 @@ export default function decorate(block) {
   block.append(track);
   buildNav(block, rows);
   buildControls(block);
+  goToSlide(block, 0);
 
   // Auto-play
   setInterval(() => navigate(block, 1), 5000);

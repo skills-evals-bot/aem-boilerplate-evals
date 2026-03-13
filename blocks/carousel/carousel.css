@@ -2,23 +2,24 @@
 
 .carousel {
   position: relative;
-  overflow: hidden;
   width: 100%;
 }
 
 .carousel-track {
-  display: flex;
-  transition: transform 0.5s ease;
+  position: relative;
 }
 
 .carousel-slide {
-  flex: 0 0 100%;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  padding: 2rem;
-  height: 400px;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.carousel-slide.active {
+  display: flex;
 }
 
 .carousel-image {
@@ -44,6 +45,10 @@
 .carousel-content p {
   margin-bottom: 1rem;
   line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 /* Navigation dots */
@@ -52,7 +57,7 @@
   justify-content: center;
   gap: 0.5rem;
   padding: 1rem 0;
-  max-width: 120px;
+  flex-wrap: wrap;
   margin: 0 auto;
 }
 
@@ -96,4 +101,14 @@
 .carousel-prev:hover,
 .carousel-next:hover {
   background: rgb(0 0 0 / 80%);
+}
+
+@media (width >= 600px) {
+  .carousel-slide {
+    padding: 2rem;
+  }
+
+  .carousel-content p {
+    -webkit-line-clamp: 6;
+  }
 }
