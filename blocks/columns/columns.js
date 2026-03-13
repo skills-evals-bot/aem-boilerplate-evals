@@ -3,7 +3,7 @@ export default function decorate(block) {
   block.classList.add(`columns-${cols.length}-cols`);
 
   // setup image columns
-  [...block.children].forEach((row) => {
+  [...block.children].forEach((row, rowIndex) => {
     [...row.children].forEach((col) => {
       const pic = col.querySelector('picture');
       if (pic) {
@@ -14,5 +14,10 @@ export default function decorate(block) {
         }
       }
     });
+
+    // z-pattern: alternate image side on each row
+    if (block.classList.contains('z-pattern') && rowIndex % 2 === 1) {
+      row.classList.add('columns-row-reverse');
+    }
   });
 }
