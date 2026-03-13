@@ -13,12 +13,13 @@
 
 .carousel-slide {
   flex: 0 0 100%;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  padding: 2rem;
-  height: 400px;
+  min-height: 400px;
+  padding: 1.5rem 2.75rem;
 }
 
 .carousel-image {
@@ -34,6 +35,7 @@
 .carousel-content {
   text-align: center;
   max-width: 600px;
+  width: 100%;
 }
 
 .carousel-content h2,
@@ -96,4 +98,10 @@
 .carousel-prev:hover,
 .carousel-next:hover {
   background: rgb(0 0 0 / 80%);
+}
+
+@media (width >= 600px) {
+  .carousel-slide {
+    padding: 2rem 4rem;
+  }
 }
