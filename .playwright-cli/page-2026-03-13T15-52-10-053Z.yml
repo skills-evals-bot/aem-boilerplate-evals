@@ -1,0 +1,45 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]
+  - main [ref=e3]:
+    - main [ref=e5]:
+      - heading "Our Products" [level=2] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - img "Wireless Headphones" [ref=e13]
+          - generic [ref=e14]:
+            - heading "Wireless Headphones" [level=3] [ref=e15]
+            - paragraph [ref=e16]: Premium noise-canceling headphones with 30-hour battery life and crystal-clear audio.
+            - paragraph [ref=e17]:
+              - link "Shop Now" [ref=e18] [cursor=pointer]:
+                - /url: /products/headphones
+            - paragraph [ref=e19]:
+              - strong [ref=e20]: Sale
+        - generic [ref=e21]:
+          - img "Smart Watch" [ref=e24]
+          - generic [ref=e25]:
+            - heading "Smart Watch" [level=3] [ref=e26]
+            - paragraph [ref=e27]: Track your fitness goals with GPS, heart rate monitor, and 7-day battery life.
+            - paragraph [ref=e28]:
+              - link "Learn More" [ref=e29] [cursor=pointer]:
+                - /url: /products/smartwatch
+            - paragraph [ref=e30]:
+              - strong [ref=e31]: New
+        - generic [ref=e32]:
+          - img "Portable Speaker" [ref=e35]
+          - generic [ref=e36]:
+            - heading "Portable Speaker" [level=3] [ref=e37]
+            - paragraph [ref=e38]: Waterproof Bluetooth speaker with 360-degree sound and 12-hour playtime.
+            - paragraph [ref=e39]:
+              - link "Buy Now" [ref=e40] [cursor=pointer]:
+                - /url: /products/speaker
+        - generic [ref=e41]:
+          - img "Laptop Stand" [ref=e44]
+          - generic [ref=e45]:
+            - heading "Laptop Stand" [level=3] [ref=e46]
+            - paragraph [ref=e47]: Ergonomic aluminum stand with adjustable height for comfortable working.
+            - paragraph [ref=e48]:
+              - link "View Details" [ref=e49] [cursor=pointer]:
+                - /url: /products/laptop-stand
+            - paragraph [ref=e50]:
+              - strong [ref=e51]: Featured
+  - contentinfo

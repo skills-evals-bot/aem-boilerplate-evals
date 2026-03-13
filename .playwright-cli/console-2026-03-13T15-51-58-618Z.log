@@ -1,0 +1,7 @@
+[      68ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3339/icons/placeholder.svg:0
+[    8105ms] TypeError: Cannot read properties of null (reading 'dataset')
+    at loadSection (http://localhost:3339/scripts/aem.js:636:26)
+    at loadEager (http://localhost:3339/scripts/scripts.js:140:11)
+    at loadPage (http://localhost:3339/scripts/scripts.js:184:9)
+    at http://localhost:3339/scripts/scripts.js:189:1
+[    8261ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3339/drafts/media_placeholder.jpeg?width=750&format=webply&optimize=medium:0
