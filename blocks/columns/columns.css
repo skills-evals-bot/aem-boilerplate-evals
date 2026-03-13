@@ -30,4 +30,24 @@
     flex: 1;
     order: unset;
   }
+
+  .columns.columns-2-cols.split-33-66 > div > :first-child {
+    flex: 1;
+  }
+
+  .columns.columns-2-cols.split-33-66 > div > :last-child {
+    flex: 2;
+  }
+
+  .columns.columns-2-cols.split-66-33 > div > :first-child {
+    flex: 2;
+  }
+
+  .columns.columns-2-cols.split-66-33 > div > :last-child {
+    flex: 1;
+  }
+
+  .columns.columns-2-cols.z-pattern > div:nth-child(even) {
+    flex-direction: row-reverse;
+  }
 }
