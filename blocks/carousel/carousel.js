@@ -41,7 +41,7 @@ function buildNav(block, slides) {
   block.append(nav);
 }
 
-function buildControls(block) {
+function buildControls(block, container) {
   const prev = document.createElement('button');
   prev.classList.add('carousel-prev');
   prev.setAttribute('aria-label', 'Previous slide');
@@ -54,7 +54,7 @@ function buildControls(block) {
   next.innerHTML = '&#10095;';
   next.addEventListener('click', () => navigate(block, 1));
 
-  block.append(prev, next);
+  container.append(prev, next);
 }
 
 export default function decorate(block) {
@@ -95,9 +95,12 @@ export default function decorate(block) {
     track.append(slide);
   });
 
-  block.append(track);
+  const controls = document.createElement('div');
+  controls.classList.add('carousel-controls');
+  controls.append(track);
+  block.append(controls);
   buildNav(block, rows);
-  buildControls(block);
+  buildControls(block, controls);
 
   // Auto-play
   setInterval(() => navigate(block, 1), 5000);
