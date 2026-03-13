@@ -1,0 +1,44 @@
+- generic [active] [ref=e1]:
+  - banner
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - img "Running shoes" [ref=e8]
+        - generic [ref=e9]: Sale
+        - generic [ref=e10]:
+          - heading "Running Shoes" [level=3] [ref=e11]
+          - paragraph [ref=e12]: Lightweight and responsive for your daily runs.
+          - paragraph [ref=e13]:
+            - strong [ref=e14]:
+              - link "Shop now" [ref=e15] [cursor=pointer]:
+                - /url: /products/running-shoes
+      - generic [ref=e16]:
+        - img "Trail jacket" [ref=e19]
+        - generic [ref=e20]: New
+        - generic [ref=e21]:
+          - heading "Trail Jacket" [level=3] [ref=e22]
+          - paragraph [ref=e23]: Waterproof and breathable for all-weather adventures.
+          - paragraph [ref=e24]:
+            - strong [ref=e25]:
+              - link "Shop now" [ref=e26] [cursor=pointer]:
+                - /url: /products/trail-jacket
+      - generic [ref=e27]:
+        - img "Hiking backpack" [ref=e30]
+        - generic [ref=e31]:
+          - heading "Hiking Backpack" [level=3] [ref=e32]
+          - paragraph [ref=e33]: Ergonomic design with plenty of storage space.
+          - paragraph [ref=e34]:
+            - strong [ref=e35]:
+              - link "Shop now" [ref=e36] [cursor=pointer]:
+                - /url: /products/hiking-backpack
+      - generic [ref=e37]:
+        - img "Sport sunglasses" [ref=e40]
+        - generic [ref=e41]: Featured
+        - generic [ref=e42]:
+          - heading "Sport Sunglasses" [level=3] [ref=e43]
+          - paragraph [ref=e44]: UV protection with an ultra-light frame.
+          - paragraph [ref=e45]:
+            - strong [ref=e46]:
+              - link "Shop now" [ref=e47] [cursor=pointer]:
+                - /url: /products/sport-sunglasses
+  - contentinfo
