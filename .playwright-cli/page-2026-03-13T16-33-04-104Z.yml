@@ -1,0 +1,57 @@
+- main [ref=e2]:
+  - generic [ref=e4]:
+    - heading "Product Cards Test" [level=1] [ref=e5]
+    - paragraph [ref=e6]: Testing the product cards block with various configurations.
+  - list [ref=e10]:
+    - listitem [ref=e11]:
+      - generic [ref=e12]:
+        - img "Premium Wireless Headphones" [ref=e14]
+        - generic [ref=e15]: Sale
+      - generic [ref=e16]:
+        - heading "Premium Wireless Headphones" [level=3] [ref=e17]
+        - paragraph [ref=e18]: Experience crystal-clear audio with active noise cancellation and up to 30 hours of battery life.
+        - link "Shop Now" [ref=e19] [cursor=pointer]:
+          - /url: "#product1"
+    - listitem [ref=e20]:
+      - generic [ref=e21]:
+        - img "Smart Fitness Watch" [ref=e23]
+        - generic [ref=e24]: New
+      - generic [ref=e25]:
+        - heading "Smart Fitness Watch" [level=3] [ref=e26]
+        - paragraph [ref=e27]: Track your health and fitness goals with advanced sensors, GPS, and a beautiful AMOLED display.
+        - link "Learn More" [ref=e28] [cursor=pointer]:
+          - /url: "#product2"
+    - listitem [ref=e29]:
+      - generic [ref=e30]:
+        - img "Portable Bluetooth Speaker" [ref=e32]
+        - generic [ref=e33]: Featured
+      - generic [ref=e34]:
+        - heading "Portable Bluetooth Speaker" [level=3] [ref=e35]
+        - paragraph [ref=e36]: Powerful sound in a compact design. Waterproof and perfect for outdoor adventures.
+        - link "Buy Now" [ref=e37] [cursor=pointer]:
+          - /url: "#product3"
+    - listitem [ref=e38]:
+      - img "Ergonomic Wireless Mouse" [ref=e41]
+      - generic [ref=e42]:
+        - heading "Ergonomic Wireless Mouse" [level=3] [ref=e43]
+        - paragraph [ref=e44]: Designed for all-day comfort with precision tracking and programmable buttons.
+        - link "View Details" [ref=e45] [cursor=pointer]:
+          - /url: "#product4"
+    - listitem [ref=e46]:
+      - generic [ref=e47]:
+        - img "4K Webcam" [ref=e49]
+        - generic [ref=e50]: New
+      - generic [ref=e51]:
+        - heading "4K Webcam" [level=3] [ref=e52]
+        - paragraph [ref=e53]: Professional video quality for remote work and streaming with auto-focus and low-light correction.
+        - link "Discover" [ref=e54] [cursor=pointer]:
+          - /url: "#product5"
+    - listitem [ref=e55]:
+      - generic [ref=e56]:
+        - img "Mechanical Keyboard" [ref=e58]
+        - generic [ref=e59]: Sale
+      - generic [ref=e60]:
+        - heading "Mechanical Keyboard" [level=3] [ref=e61]
+        - paragraph [ref=e62]: Premium typing experience with customizable RGB lighting and tactile switches.
+        - link "Get Yours" [ref=e63] [cursor=pointer]:
+          - /url: "#product6"
