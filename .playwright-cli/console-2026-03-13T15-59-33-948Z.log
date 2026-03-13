@@ -1,0 +1,8 @@
+[      42ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3342/media_1.jpeg:0
+[      42ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3342/media_2.jpeg:0
+[      42ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3342/media_3.jpeg:0
+[      42ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3342/media_4.jpeg:0
+[      49ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3342/media_1.jpeg?width=750&format=webply&optimize=medium:0
+[      49ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3342/media_2.jpeg?width=750&format=webply&optimize=medium:0
+[      49ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3342/media_3.jpeg?width=750&format=webply&optimize=medium:0
+[      49ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3342/media_4.jpeg?width=750&format=webply&optimize=medium:0

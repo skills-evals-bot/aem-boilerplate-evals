@@ -1,0 +1,45 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]
+  - main [ref=e3]:
+    - main [ref=e5]:
+      - heading "Our Products" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - img "Wireless headphones on a desk" [ref=e13]
+          - generic [ref=e14]:
+            - heading "Wireless Headphones" [level=3] [ref=e15]
+            - paragraph [ref=e16]: Premium noise-canceling headphones with 30-hour battery life and crystal-clear audio.
+            - paragraph [ref=e17]:
+              - link "Shop Now" [ref=e18] [cursor=pointer]:
+                - /url: /products/headphones
+            - paragraph [ref=e19]:
+              - strong [ref=e20]: Sale
+        - generic [ref=e21]:
+          - img "Smart watch on a wrist" [ref=e24]
+          - generic [ref=e25]:
+            - heading "Smart Watch Pro" [level=3] [ref=e26]
+            - paragraph [ref=e27]: Track your fitness goals with GPS, heart rate monitoring, and a stunning OLED display.
+            - paragraph [ref=e28]:
+              - link "Learn More" [ref=e29] [cursor=pointer]:
+                - /url: /products/smart-watch
+            - paragraph [ref=e30]:
+              - strong [ref=e31]: New
+        - generic [ref=e32]:
+          - img "Portable speaker in outdoor setting" [ref=e35]
+          - generic [ref=e36]:
+            - heading "Portable Speaker" [level=3] [ref=e37]
+            - paragraph [ref=e38]: Waterproof Bluetooth speaker with deep bass and 12-hour playtime for any adventure.
+            - paragraph [ref=e39]:
+              - link "Buy Now" [ref=e40] [cursor=pointer]:
+                - /url: /products/speaker
+        - generic [ref=e41]:
+          - img "Laptop on a wooden table" [ref=e44]
+          - generic [ref=e45]:
+            - heading "UltraBook Laptop" [level=3] [ref=e46]
+            - paragraph [ref=e47]: Thin, light, and powerful. Perfect for professionals who need performance on the go.
+            - paragraph [ref=e48]:
+              - link "View Details" [ref=e49] [cursor=pointer]:
+                - /url: /products/laptop
+            - paragraph [ref=e50]:
+              - strong [ref=e51]: Featured
+  - contentinfo
