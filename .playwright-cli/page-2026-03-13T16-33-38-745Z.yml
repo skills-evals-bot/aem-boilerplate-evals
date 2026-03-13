@@ -1,0 +1,80 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e5]:
+      - paragraph [ref=e8]:
+        - link "Boilerplate" [ref=e9] [cursor=pointer]:
+          - /url: /
+      - list [ref=e12]:
+        - listitem [ref=e13] [cursor=pointer]:
+          - paragraph [ref=e14]: Default Content
+        - listitem [ref=e15] [cursor=pointer]:
+          - paragraph [ref=e16]: Sample Blocks
+        - listitem [ref=e17]:
+          - paragraph [ref=e18]:
+            - link "Getting Started" [ref=e19] [cursor=pointer]:
+              - /url: https://www.aem.live/developer/tutorial
+        - listitem [ref=e20]:
+          - paragraph [ref=e21]:
+            - link "Documentation" [ref=e22] [cursor=pointer]:
+              - /url: https://www.aem.live/docs/
+      - paragraph [ref=e25]:
+        - link [ref=e26] [cursor=pointer]:
+          - /url: /docs/library/blocks/modals/sample-search
+  - main [ref=e28]:
+    - list [ref=e32]:
+      - listitem [ref=e33]:
+        - generic [ref=e34]:
+          - img "Running shoes" [ref=e36]
+          - generic [ref=e37]: Sale
+        - generic [ref=e38]:
+          - heading "Running Shoes" [level=3] [ref=e39]
+          - paragraph [ref=e40]: Lightweight and responsive for your daily runs.
+          - paragraph [ref=e41]:
+            - link "Shop now" [ref=e42] [cursor=pointer]:
+              - /url: /products/running-shoes
+      - listitem [ref=e43]:
+        - generic [ref=e44]:
+          - img "Trail jacket" [ref=e46]
+          - generic [ref=e47]: New
+        - generic [ref=e48]:
+          - heading "Trail Jacket" [level=3] [ref=e49]
+          - paragraph [ref=e50]: Waterproof and breathable for all-weather adventures.
+          - paragraph [ref=e51]:
+            - link "Shop now" [ref=e52] [cursor=pointer]:
+              - /url: /products/trail-jacket
+      - listitem [ref=e53]:
+        - img "Hiking backpack" [ref=e56]
+        - generic [ref=e57]:
+          - heading "Hiking Backpack" [level=3] [ref=e58]
+          - paragraph [ref=e59]: Ergonomic design with plenty of storage space.
+          - paragraph [ref=e60]:
+            - link "Shop now" [ref=e61] [cursor=pointer]:
+              - /url: /products/hiking-backpack
+      - listitem [ref=e62]:
+        - generic [ref=e63]:
+          - img "Sport sunglasses" [ref=e65]
+          - generic [ref=e66]: Featured
+        - generic [ref=e67]:
+          - heading "Sport Sunglasses" [level=3] [ref=e68]
+          - paragraph [ref=e69]: UV protection with an ultra-light frame.
+          - paragraph [ref=e70]:
+            - link "Shop now" [ref=e71] [cursor=pointer]:
+              - /url: /products/sport-sunglasses
+  - contentinfo [ref=e72]:
+    - generic [ref=e76]:
+      - paragraph [ref=e77]: Copyright © 2021 Adobe. All rights reserved.
+      - paragraph [ref=e78]:
+        - link "Privacy" [ref=e79] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy.html
+        - text: /
+        - link "Terms of Use" [ref=e80] [cursor=pointer]:
+          - /url: https://www.adobe.com/legal/terms.html
+        - text: /
+        - link "Cookie preferences" [ref=e81] [cursor=pointer]:
+          - /url: https://www.adobe.com/#openPrivacy
+        - text: /
+        - link "Do not sell my personal information" [ref=e82] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy/ca-rights.html
+        - text: /
+        - link "AdChoices" [ref=e83] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy/opt-out.html#interest-based-ads
