@@ -1,0 +1,89 @@
+- generic [active] [ref=e1]:
+  - heading "Default Columns" [level=2] [ref=e3]
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - img "Modern office workspace with natural light" [ref=e9]
+      - generic [ref=e10]:
+        - heading "Flexible Workspaces" [level=3] [ref=e11]
+        - paragraph [ref=e12]: Our open-plan offices are designed to adapt to how your team works. Choose from quiet focus zones, collaborative areas, and casual meeting spots throughout the building.
+        - paragraph [ref=e13]:
+          - link "Explore spaces" [ref=e14] [cursor=pointer]:
+            - /url: /workspaces
+    - generic [ref=e15]:
+      - img "Team collaborating around a whiteboard" [ref=e18]
+      - generic [ref=e19]:
+        - heading "Built for Collaboration" [level=3] [ref=e20]
+        - paragraph [ref=e21]: Every floor features dedicated collaboration hubs with whiteboards, video conferencing, and comfortable seating for impromptu discussions and planned workshops.
+        - paragraph [ref=e22]:
+          - link "Learn more" [ref=e23] [cursor=pointer]:
+            - /url: /collaboration
+  - heading "Z-Pattern Layout" [level=2] [ref=e25]
+  - generic [ref=e27]:
+    - generic [ref=e28]:
+      - img "Modern office workspace with natural light" [ref=e31]
+      - generic [ref=e32]:
+        - heading "Flexible Workspaces" [level=3] [ref=e33]
+        - paragraph [ref=e34]: Our open-plan offices are designed to adapt to how your team works. Choose from quiet focus zones, collaborative areas, and casual meeting spots throughout the building.
+        - paragraph [ref=e35]:
+          - link "Explore spaces" [ref=e36] [cursor=pointer]:
+            - /url: /workspaces
+    - generic [ref=e37]:
+      - img "Team collaborating around a whiteboard" [ref=e40]
+      - generic [ref=e41]:
+        - heading "Built for Collaboration" [level=3] [ref=e42]
+        - paragraph [ref=e43]: Every floor features dedicated collaboration hubs with whiteboards, video conferencing, and comfortable seating for impromptu discussions and planned workshops.
+        - paragraph [ref=e44]:
+          - link "Learn more" [ref=e45] [cursor=pointer]:
+            - /url: /collaboration
+    - generic [ref=e46]:
+      - img "Rooftop garden with city views" [ref=e49]
+      - generic [ref=e50]:
+        - heading "Wellness & Balance" [level=3] [ref=e51]
+        - paragraph [ref=e52]: Step away from your desk and recharge in our rooftop garden, fitness center, or meditation rooms. We believe great work starts with taking care of yourself.
+        - paragraph [ref=e53]:
+          - link "See amenities" [ref=e54] [cursor=pointer]:
+            - /url: /wellness
+    - generic [ref=e55]:
+      - img "Sustainable building with green walls" [ref=e58]
+      - generic [ref=e59]:
+        - heading "Sustainability First" [level=3] [ref=e60]
+        - paragraph [ref=e61]: Our LEED-certified buildings use renewable energy, rainwater harvesting, and smart climate systems to minimize environmental impact without compromising comfort.
+        - paragraph [ref=e62]:
+          - link "Our commitment" [ref=e63] [cursor=pointer]:
+            - /url: /sustainability
+  - heading "Split 33-66 Layout" [level=2] [ref=e65]
+  - generic [ref=e67]:
+    - generic [ref=e68]:
+      - img "Modern office workspace with natural light" [ref=e71]
+      - generic [ref=e72]:
+        - heading "Flexible Workspaces" [level=3] [ref=e73]
+        - paragraph [ref=e74]: Our open-plan offices are designed to adapt to how your team works. Choose from quiet focus zones, collaborative areas, and casual meeting spots throughout the building.
+        - paragraph [ref=e75]:
+          - link "Explore spaces" [ref=e76] [cursor=pointer]:
+            - /url: /workspaces
+    - generic [ref=e77]:
+      - img "Team collaborating around a whiteboard" [ref=e80]
+      - generic [ref=e81]:
+        - heading "Built for Collaboration" [level=3] [ref=e82]
+        - paragraph [ref=e83]: Every floor features dedicated collaboration hubs with whiteboards, video conferencing, and comfortable seating for impromptu discussions and planned workshops.
+        - paragraph [ref=e84]:
+          - link "Learn more" [ref=e85] [cursor=pointer]:
+            - /url: /collaboration
+  - heading "Split 66-33 Layout" [level=2] [ref=e87]
+  - generic [ref=e89]:
+    - generic [ref=e90]:
+      - img "Rooftop garden with city views" [ref=e93]
+      - generic [ref=e94]:
+        - heading "Wellness & Balance" [level=3] [ref=e95]
+        - paragraph [ref=e96]: Step away from your desk and recharge in our rooftop garden, fitness center, or meditation rooms. We believe great work starts with taking care of yourself.
+        - paragraph [ref=e97]:
+          - link "See amenities" [ref=e98] [cursor=pointer]:
+            - /url: /wellness
+    - generic [ref=e99]:
+      - img "Sustainable building with green walls" [ref=e102]
+      - generic [ref=e103]:
+        - heading "Sustainability First" [level=3] [ref=e104]
+        - paragraph [ref=e105]: Our LEED-certified buildings use renewable energy, rainwater harvesting, and smart climate systems to minimize environmental impact without compromising comfort.
+        - paragraph [ref=e106]:
+          - link "Our commitment" [ref=e107] [cursor=pointer]:
+            - /url: /sustainability
