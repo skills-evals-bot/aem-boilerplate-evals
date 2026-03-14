@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="headphonesTitle headphonesDesc">
+  <title id="headphonesTitle">Luma Headphones</title>
+  <desc id="headphonesDesc">Stylized product illustration of wireless headphones.</desc>
+  <defs>
+    <linearGradient id="headphonesBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7f2ea"/>
+      <stop offset="100%" stop-color="#f1dec6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#headphonesBg)"/>
+  <path d="M260 320v-60c0-92 62-150 140-150s140 58 140 150v60" fill="none" stroke="#2f4858" stroke-linecap="round" stroke-width="38"/>
+  <rect x="210" y="280" width="90" height="160" rx="36" fill="#2f4858"/>
+  <rect x="500" y="280" width="90" height="160" rx="36" fill="#2f4858"/>
+  <rect x="232" y="305" width="46" height="108" rx="20" fill="#f4b183"/>
+  <rect x="522" y="305" width="46" height="108" rx="20" fill="#f4b183"/>
+  <circle cx="400" cy="215" r="32" fill="#f4b183" fill-opacity="0.35"/>
+  <text x="400" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#2f4858">Luma Headphones</text>
+</svg>

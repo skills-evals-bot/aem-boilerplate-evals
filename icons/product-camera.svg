@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="cameraTitle cameraDesc">
+  <title id="cameraTitle">Atlas Camera</title>
+  <desc id="cameraDesc">Stylized product illustration of a compact camera.</desc>
+  <defs>
+    <linearGradient id="cameraBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef5f2"/>
+      <stop offset="100%" stop-color="#d5e8df"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#cameraBg)"/>
+  <rect x="180" y="180" width="440" height="240" rx="28" fill="#213547"/>
+  <rect x="250" y="155" width="100" height="45" rx="14" fill="#213547"/>
+  <circle cx="400" cy="300" r="96" fill="#f3f7fb"/>
+  <circle cx="400" cy="300" r="64" fill="#5fa8d3"/>
+  <circle cx="400" cy="300" r="28" fill="#213547"/>
+  <rect x="540" y="220" width="36" height="24" rx="12" fill="#ff9f1c"/>
+  <text x="400" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#213547">Atlas Camera</text>
+</svg>
