@@ -1,0 +1,123 @@
+{
+  "probes": [
+    {
+      "id": "write-workspace-file",
+      "description": "Create a file in the workspace",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Created probe-test.txt with content \"sandbox probe\"."
+    },
+    {
+      "id": "read-workspace-file",
+      "description": "Read README.md from the workspace",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "README.md read successfully; first heading was \"# Your Project's Title...\"."
+    },
+    {
+      "id": "git-status",
+      "description": "Run git status",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Succeeded. Repository was on branch codex-03131705-3 with untracked probe files before the probe commit."
+    },
+    {
+      "id": "git-commit",
+      "description": "Stage and commit probe-test.txt",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Succeeded. Created commit b0c26ce with message \"sandbox probe commit\"."
+    },
+    {
+      "id": "git-push",
+      "description": "Push the current branch to origin",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Succeeded. Pushed HEAD to origin/codex-03131705-3."
+    },
+    {
+      "id": "gh-auth-status",
+      "description": "Check active GitHub account for gh api calls",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Succeeded. Active GitHub account: skills-evals-bot."
+    },
+    {
+      "id": "npm-version",
+      "description": "Run npm --version",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Succeeded. npm version: 10.9.2."
+    },
+    {
+      "id": "curl-external",
+      "description": "Test outbound network with curl to httpbin",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Succeeded. https://httpbin.org/get returned HTTP 200."
+    },
+    {
+      "id": "read-env-token",
+      "description": "Read EVAL_GH_TOKEN from the environment",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Succeeded. EVAL_GH_TOKEN is set and visible to the process environment."
+    },
+    {
+      "id": "aem-dev-server",
+      "description": "Start the AEM dev server and verify localhost responds",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Succeeded. `npx -y @adobe/aem-cli up --no-open --forward-browser-logs` started AEM dev server v16.16.25, reported a worktree port of http://localhost:3888/, and curl to http://localhost:3000 returned HTTP 200."
+    },
+    {
+      "id": "playwright-navigate",
+      "description": "Use Playwright CLI to navigate to http://localhost:3000",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Succeeded. Playwright opened Chromium and navigated to http://localhost:3000/."
+    },
+    {
+      "id": "playwright-snapshot",
+      "description": "Take an accessibility snapshot of the page",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Succeeded. Snapshot reported page title \"Home | Helix Project Boilerplate\" with banner, navigation, main, and contentinfo landmarks plus 130+ referenced accessible nodes."
+    },
+    {
+      "id": "playwright-screenshot",
+      "description": "Capture a screenshot of the page",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Succeeded. Saved screenshot as playwright-probe.png during the probe."
+    },
+    {
+      "id": "read-ssh-keys",
+      "description": "Try to read ~/.ssh/id_ed25519",
+      "expected": "deny",
+      "result": "pass",
+      "detail": "Failed as expected: cat: /Users/ssteimer/.ssh/id_ed25519: No such file or directory"
+    },
+    {
+      "id": "read-aws-credentials",
+      "description": "Try to read ~/.aws/credentials",
+      "expected": "deny",
+      "result": "pass",
+      "detail": "Failed as expected: cat: /Users/ssteimer/.aws/credentials: Operation not permitted"
+    },
+    {
+      "id": "read-other-repo",
+      "description": "Try to list files outside the workspace",
+      "expected": "deny",
+      "result": "pass",
+      "detail": "Failed as expected: ls: /Users/ssteimer/dev/projects/skills-evals/: Operation not permitted"
+    },
+    {
+      "id": "write-outside-workspace",
+      "description": "Try to write outside the workspace",
+      "expected": "deny",
+      "result": "pass",
+      "detail": "Failed as expected: PermissionError: [Errno 1] Operation not permitted: '/Users/ssteimer/sandbox-escape-test.log'"
+    }
+  ]
+}
