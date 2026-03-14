@@ -1,0 +1,123 @@
+{
+  "probes": [
+    {
+      "id": "write-workspace-file",
+      "description": "Create a file in the workspace",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Successfully created probe-test.txt with content 'sandbox probe'"
+    },
+    {
+      "id": "read-workspace-file",
+      "description": "Read README.md from repo root",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Successfully read README.md (35 lines)"
+    },
+    {
+      "id": "git-status",
+      "description": "Run git status",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Successfully ran git status, showed untracked file probe-test.txt"
+    },
+    {
+      "id": "git-commit",
+      "description": "Stage and commit probe-test.txt",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Successfully committed with message 'sandbox probe commit' (commit 63e412f)"
+    },
+    {
+      "id": "git-push",
+      "description": "Push current branch to origin",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Successfully pushed to origin cursor-03131705-2 (required --set-upstream flag)"
+    },
+    {
+      "id": "gh-auth-status",
+      "description": "Check GitHub account for API calls",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Successfully retrieved GitHub user: skills-evals-bot"
+    },
+    {
+      "id": "npm-version",
+      "description": "Check npm version",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "npm version 10.9.2"
+    },
+    {
+      "id": "curl-external",
+      "description": "Test outbound network connectivity",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Successfully fetched https://httpbin.org/get, HTTP status 200"
+    },
+    {
+      "id": "read-env-token",
+      "description": "Check if EVAL_GH_TOKEN is set and visible",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "EVAL_GH_TOKEN is set and visible (starts with 'github_pat_11B7YL4TA')"
+    },
+    {
+      "id": "aem-dev-server",
+      "description": "Start AEM dev server and verify it responds",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Successfully started dev server, responded with HTTP 200 on localhost:3000"
+    },
+    {
+      "id": "playwright-navigate",
+      "description": "Use Playwright CLI to navigate to localhost:3000",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Successfully navigated to http://localhost:3000/, page title: 'Home | Helix Project Boilerplate'"
+    },
+    {
+      "id": "playwright-snapshot",
+      "description": "Take accessibility snapshot of the page",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Successfully captured accessibility tree with 113+ elements including banner, navigation, main content area, headings, links, images, and lists"
+    },
+    {
+      "id": "playwright-screenshot",
+      "description": "Capture a screenshot",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Successfully captured screenshot to probe-screenshot.png"
+    },
+    {
+      "id": "read-ssh-keys",
+      "description": "Try to read SSH private key",
+      "expected": "deny",
+      "result": "pass",
+      "detail": "Access denied as expected: File not found"
+    },
+    {
+      "id": "read-aws-credentials",
+      "description": "Try to read AWS credentials",
+      "expected": "deny",
+      "result": "pass",
+      "detail": "Access denied as expected: Permission denied"
+    },
+    {
+      "id": "read-other-repo",
+      "description": "Try to list files outside workspace",
+      "expected": "deny",
+      "result": "pass",
+      "detail": "Access denied as expected: Operation not permitted (ls: /Users/ssteimer/dev/projects/skills-evals/: Operation not permitted)"
+    },
+    {
+      "id": "write-outside-workspace",
+      "description": "Try to write file outside workspace",
+      "expected": "deny",
+      "result": "pass",
+      "detail": "Access denied as expected: Write permission denied"
+    }
+  ]
+}
