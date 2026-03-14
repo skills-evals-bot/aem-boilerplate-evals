@@ -8,17 +8,19 @@
 
 .carousel-track {
   display: flex;
-  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, height 0.5s ease;
+  align-items: flex-start;
 }
 
 .carousel-slide {
   flex: 0 0 100%;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  padding: 2rem;
-  height: 400px;
+  min-width: 100%;
+  padding: 1rem 3rem 1.5rem;
 }
 
 .carousel-image {
@@ -29,11 +31,16 @@
 .carousel-image img {
   width: 100%;
   display: block;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 .carousel-content {
-  text-align: center;
+  width: 100%;
   max-width: 600px;
+  min-width: 0;
+  text-align: left;
+  overflow-wrap: anywhere;
 }
 
 .carousel-content h2,
@@ -74,14 +81,15 @@
 .carousel-prev,
 .carousel-next {
   position: absolute;
-  top: 50%;
+  top: min(38vw, 10rem);
   transform: translateY(-50%);
   background: rgb(0 0 0 / 50%);
   color: white;
   border: none;
-  padding: 1rem;
+  padding: 0.75rem;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1;
   z-index: 1;
 }
 
@@ -96,4 +104,21 @@
 .carousel-prev:hover,
 .carousel-next:hover {
   background: rgb(0 0 0 / 80%);
+}
+
+@media (width >= 600px) {
+  .carousel-slide {
+    padding: 2rem 4rem 1.5rem;
+  }
+
+  .carousel-content {
+    text-align: center;
+  }
+
+  .carousel-prev,
+  .carousel-next {
+    top: 50%;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
 }
