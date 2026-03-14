@@ -30,4 +30,27 @@
     flex: 1;
     order: unset;
   }
+
+  /* z-pattern variant: alternate image position */
+  .columns.z-pattern > div:nth-child(even) > .columns-img-col {
+    order: 1;
+  }
+
+  /* split-33-66 variant: first column 1/3, second column 2/3 */
+  .columns.split-33-66 > div > div:first-child {
+    flex: 0 0 33.333%;
+  }
+
+  .columns.split-33-66 > div > div:last-child {
+    flex: 0 0 66.667%;
+  }
+
+  /* split-66-33 variant: first column 2/3, second column 1/3 */
+  .columns.split-66-33 > div > div:first-child {
+    flex: 0 0 66.667%;
+  }
+
+  .columns.split-66-33 > div > div:last-child {
+    flex: 0 0 33.333%;
+  }
 }
