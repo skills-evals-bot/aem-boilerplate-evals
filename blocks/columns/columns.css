@@ -30,4 +30,28 @@
     flex: 1;
     order: unset;
   }
+
+  .columns.z-pattern > div:nth-child(even) > :first-child {
+    order: 1;
+  }
+
+  .columns.z-pattern > div:nth-child(even) > :last-child {
+    order: 0;
+  }
+
+  .columns.split-33-66 > div > :first-child {
+    flex: 1 1 33.3333%;
+  }
+
+  .columns.split-33-66 > div > :last-child {
+    flex: 1 1 66.6667%;
+  }
+
+  .columns.split-66-33 > div > :first-child {
+    flex: 1 1 66.6667%;
+  }
+
+  .columns.split-66-33 > div > :last-child {
+    flex: 1 1 33.3333%;
+  }
 }
