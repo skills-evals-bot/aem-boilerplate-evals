@@ -1,0 +1,24 @@
+- main [ref=e2]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - img "Mountain landscape at sunrise" [ref=e10]
+        - generic [ref=e11]:
+          - heading "Mountain Retreat" [level=2] [ref=e12]
+          - paragraph [ref=e13]: Escape to the peaks for a weekend of fresh air and stunning views.
+          - paragraph [ref=e14]:
+            - link "Learn more" [ref=e15] [cursor=pointer]:
+              - /url: /retreats/mountain
+      - generic [ref=e16]:
+        - img "Dense forest trail in autumn" [ref=e19]
+        - generic [ref=e20]:
+          - heading "Forest Adventure" [level=2] [ref=e21]
+          - paragraph [ref=e22]: Explore winding trails through ancient forests, discover hidden waterfalls, experience wildlife up close, and reconnect with nature on this guided multi-day hiking expedition through some of the most beautiful and unspoiled wilderness areas in the region. Our expert guides will lead you through old-growth groves, along ridgeline paths with panoramic views, and to secluded camping spots where you can fall asleep under the stars. Whether you are a seasoned hiker or a curious beginner, this adventure offers something for everyone.
+          - paragraph [ref=e23]:
+            - link "Explore" [ref=e24] [cursor=pointer]:
+              - /url: /adventures/forest
+    - generic [ref=e25]:
+      - button "Go to slide 1" [ref=e26] [cursor=pointer]
+      - button "Go to slide 2" [ref=e27] [cursor=pointer]
+    - button "Previous slide" [ref=e28] [cursor=pointer]: ❮
+    - button "Next slide" [ref=e29] [cursor=pointer]: ❯
