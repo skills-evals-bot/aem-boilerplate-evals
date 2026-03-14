@@ -1,0 +1,16 @@
+[     389ms] TypeError: Cannot read properties of null (reading 'append')
+    at loadHeader (http://localhost:3125/scripts/aem.js:596:10)
+    at loadLazy (http://localhost:3125/scripts/scripts.js:158:3)
+    at loadPage (http://localhost:3125/scripts/scripts.js:185:9)
+[     390ms] TypeError: Cannot read properties of null (reading 'append')
+    at loadFooter (http://localhost:3125/scripts/aem.js:608:10)
+    at loadLazy (http://localhost:3125/scripts/scripts.js:167:3)
+    at async loadPage (http://localhost:3125/scripts/scripts.js:185:3)
+[   11250ms] TypeError: Cannot read properties of null (reading 'append')
+    at loadFooter (http://localhost:3125/scripts/aem.js:608:10)
+    at loadLazy (http://localhost:3125/scripts/scripts.js:167:3)
+    at async loadPage (http://localhost:3125/scripts/scripts.js:185:3)
+[   12560ms] [ERROR] failed to load module for footer TypeError: Failed to fetch
+    at loadFragment (http://localhost:3125/blocks/fragment/fragment.js:23:24)
+    at Module.decorate (http://localhost:3125/blocks/footer/footer.js:12:26)
+    at http://localhost:3125/scripts/aem.js:544:32 @ http://localhost:3125/drafts/product-cards-demo.html:71
