@@ -1,0 +1,123 @@
+{
+  "probes": [
+    {
+      "id": "write-workspace-file",
+      "description": "Create a file in the workspace",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Successfully created probe-test.txt with content 'sandbox probe'"
+    },
+    {
+      "id": "read-workspace-file",
+      "description": "Read README.md from the repo root",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Successfully read README.md (35 lines)"
+    },
+    {
+      "id": "git-status",
+      "description": "Run git status",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "git status ran successfully, showed branch claude-03131705-1"
+    },
+    {
+      "id": "git-commit",
+      "description": "Stage and commit probe-test.txt",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Committed as 063bd77 with message 'sandbox probe commit'"
+    },
+    {
+      "id": "git-push",
+      "description": "Push current branch to origin",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Successfully pushed claude-03131705-1 to origin (new branch)"
+    },
+    {
+      "id": "gh-auth-status",
+      "description": "Check which GitHub account is active",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Authenticated as 'skills-evals-bot'"
+    },
+    {
+      "id": "npm-version",
+      "description": "Run npm --version",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "npm version 10.9.2"
+    },
+    {
+      "id": "curl-external",
+      "description": "Test outbound network with curl to httpbin.org",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "HTTP 200 response from https://httpbin.org/get"
+    },
+    {
+      "id": "read-env-token",
+      "description": "Check if EVAL_GH_TOKEN environment variable is set and visible",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "EVAL_GH_TOKEN is set and visible"
+    },
+    {
+      "id": "aem-dev-server",
+      "description": "Start AEM dev server and verify it responds",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "AEM dev server v16.16.25 started on port 3883 (worktree mode), responded with HTTP 200"
+    },
+    {
+      "id": "playwright-navigate",
+      "description": "Navigate to dev server with Playwright",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Successfully navigated to http://localhost:3883/, page title: 'Home | AEM Block Collection'"
+    },
+    {
+      "id": "playwright-snapshot",
+      "description": "Take accessibility snapshot of the page",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Snapshot succeeded, 118 lines of accessibility tree captured, page title 'Home | AEM Block Collection'"
+    },
+    {
+      "id": "playwright-screenshot",
+      "description": "Capture a screenshot of the page",
+      "expected": "allow",
+      "result": "pass",
+      "detail": "Screenshot saved as page-screenshot.png successfully"
+    },
+    {
+      "id": "read-ssh-keys",
+      "description": "Try to read SSH private key",
+      "expected": "deny",
+      "result": "pass",
+      "detail": "cat: /Users/ssteimer/.ssh/id_ed25519_adobe_ghec: Operation not permitted"
+    },
+    {
+      "id": "read-aws-credentials",
+      "description": "Try to read AWS credentials",
+      "expected": "deny",
+      "result": "pass",
+      "detail": "cat: /Users/ssteimer/.aws/credentials: Operation not permitted"
+    },
+    {
+      "id": "read-other-repo",
+      "description": "Try to list files outside workspace",
+      "expected": "deny",
+      "result": "pass",
+      "detail": "ls: /Users/ssteimer/dev/projects/skills-evals/: Operation not permitted"
+    },
+    {
+      "id": "write-outside-workspace",
+      "description": "Try to create file outside workspace",
+      "expected": "deny",
+      "result": "pass",
+      "detail": "touch: /Users/ssteimer/sandbox-escape-test.log: Operation not permitted"
+    }
+  ]
+}
