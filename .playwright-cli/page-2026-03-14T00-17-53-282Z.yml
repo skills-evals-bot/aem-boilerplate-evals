@@ -1,0 +1,45 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - heading "Our Products" [level=1] [ref=e4]
+    - paragraph [ref=e5]: Discover our latest collection of premium products.
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - img "Product 1" [ref=e9]
+        - generic [ref=e10]: Sale
+        - generic [ref=e11]: Premium Wireless Headphones
+        - generic [ref=e12]: Experience crystal-clear audio with our flagship noise-cancelling headphones. Perfect for travel and daily commutes.
+        - link "Shop Now" [ref=e14] [cursor=pointer]:
+          - /url: /products/headphones
+      - generic [ref=e15]:
+        - img "Product 2" [ref=e17]
+        - generic [ref=e18]: New
+        - generic [ref=e19]: Smart Fitness Watch
+        - generic [ref=e20]: Track your fitness goals with advanced health monitoring and GPS capabilities. Water-resistant up to 50m.
+        - link "Learn More" [ref=e22] [cursor=pointer]:
+          - /url: /products/watch
+      - generic [ref=e23]:
+        - img "Product 3" [ref=e25]
+        - generic [ref=e26]: Portable Power Bank
+        - generic [ref=e27]: Never run out of battery with our 20,000mAh power bank. Fast charging support for all devices.
+        - link "View Details" [ref=e29] [cursor=pointer]:
+          - /url: /products/powerbank
+      - generic [ref=e30]:
+        - img "Product 4" [ref=e32]
+        - generic [ref=e33]: Featured
+        - generic [ref=e34]: Bluetooth Speaker
+        - generic [ref=e35]: Premium sound quality in a compact design. 24-hour battery life and waterproof construction.
+        - link "Buy Now" [ref=e37] [cursor=pointer]:
+          - /url: /products/speaker
+      - generic [ref=e38]:
+        - img "Product 5" [ref=e40]
+        - generic [ref=e41]: USB-C Hub
+        - generic [ref=e42]: Expand your connectivity with 7 ports including HDMI, USB 3.0, and SD card reader. Perfect for laptops.
+        - link "Shop Now" [ref=e44] [cursor=pointer]:
+          - /url: /products/hub
+      - generic [ref=e45]:
+        - img "Product 6" [ref=e47]
+        - generic [ref=e48]: Sale
+        - generic [ref=e49]: Wireless Charging Pad
+        - generic [ref=e50]: Fast wireless charging for all Qi-enabled devices. Sleek design with LED indicator lights.
+        - link "Order Now" [ref=e52] [cursor=pointer]:
+          - /url: /products/charger

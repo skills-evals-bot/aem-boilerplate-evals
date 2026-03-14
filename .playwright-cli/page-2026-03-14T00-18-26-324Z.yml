@@ -1,0 +1,56 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - heading "Our Products" [level=1] [ref=e5]
+      - paragraph [ref=e6]: Discover our latest collection of premium products.
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - img "Product 1" [ref=e12]
+          - generic [ref=e13]: Sale
+        - generic [ref=e14]:
+          - heading "Premium Wireless Headphones" [level=3] [ref=e15]
+          - paragraph [ref=e16]: Experience crystal-clear audio with our flagship noise-cancelling headphones. Perfect for travel and daily commutes.
+          - link "Shop Now" [ref=e18] [cursor=pointer]:
+            - /url: /products/headphones
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - img "Product 2" [ref=e22]
+          - generic [ref=e23]: New
+        - generic [ref=e24]:
+          - heading "Smart Fitness Watch" [level=3] [ref=e25]
+          - paragraph [ref=e26]: Track your fitness goals with advanced health monitoring and GPS capabilities. Water-resistant up to 50m.
+          - link "Learn More" [ref=e28] [cursor=pointer]:
+            - /url: /products/watch
+      - generic [ref=e29]:
+        - img "Product 3" [ref=e32]
+        - generic [ref=e33]:
+          - heading "Portable Power Bank" [level=3] [ref=e34]
+          - paragraph [ref=e35]: Never run out of battery with our 20,000mAh power bank. Fast charging support for all devices.
+          - link "View Details" [ref=e37] [cursor=pointer]:
+            - /url: /products/powerbank
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - img "Product 4" [ref=e41]
+          - generic [ref=e42]: Featured
+        - generic [ref=e43]:
+          - heading "Bluetooth Speaker" [level=3] [ref=e44]
+          - paragraph [ref=e45]: Premium sound quality in a compact design. 24-hour battery life and waterproof construction.
+          - link "Buy Now" [ref=e47] [cursor=pointer]:
+            - /url: /products/speaker
+      - generic [ref=e48]:
+        - img "Product 5" [ref=e51]
+        - generic [ref=e52]:
+          - heading "USB-C Hub" [level=3] [ref=e53]
+          - paragraph [ref=e54]: Expand your connectivity with 7 ports including HDMI, USB 3.0, and SD card reader. Perfect for laptops.
+          - link "Shop Now" [ref=e56] [cursor=pointer]:
+            - /url: /products/hub
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - img "Product 6" [ref=e60]
+          - generic [ref=e61]: Sale
+        - generic [ref=e62]:
+          - heading "Wireless Charging Pad" [level=3] [ref=e63]
+          - paragraph [ref=e64]: Fast wireless charging for all Qi-enabled devices. Sleek design with LED indicator lights.
+          - link "Order Now" [ref=e66] [cursor=pointer]:
+            - /url: /products/charger
