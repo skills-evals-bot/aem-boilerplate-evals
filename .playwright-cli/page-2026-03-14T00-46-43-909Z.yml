@@ -1,0 +1,37 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e5]:
+      - paragraph [ref=e8]:
+        - link "Boilerplate" [ref=e9] [cursor=pointer]:
+          - /url: /
+      - list [ref=e12]:
+        - listitem [ref=e13] [cursor=pointer]: Example Content
+        - listitem [ref=e14] [cursor=pointer]: Getting Started
+        - listitem [ref=e15] [cursor=pointer]: Documentation
+      - paragraph [ref=e18]
+  - main [ref=e20]:
+    - generic [ref=e22]:
+      - img [ref=e23]:
+        - generic [ref=e24]: "404"
+      - heading "Page Not Found" [level=2] [ref=e25]
+      - paragraph [ref=e26]:
+        - link "Go home" [ref=e27] [cursor=pointer]:
+          - /url: /
+  - contentinfo [ref=e28]:
+    - generic [ref=e32]:
+      - paragraph [ref=e33]: Copyright © 2021 Adobe. All rights reserved.
+      - paragraph [ref=e34]:
+        - link "Privacy" [ref=e35] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy.html
+        - text: /
+        - link "Terms of Use" [ref=e36] [cursor=pointer]:
+          - /url: https://www.adobe.com/legal/terms.html
+        - text: /
+        - link "Cookie preferences" [ref=e37] [cursor=pointer]:
+          - /url: https://www.adobe.com/#openPrivacy
+        - text: /
+        - link "Do not sell my personal information" [ref=e38] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy/ca-rights.html
+        - text: /
+        - link "AdChoices" [ref=e39] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy/opt-out.html#interest-based-ads

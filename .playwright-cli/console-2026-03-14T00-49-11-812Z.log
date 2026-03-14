@@ -1,0 +1,8 @@
+[   84080ms] TypeError: Cannot read properties of null (reading 'append')
+    at loadHeader (http://localhost:3327/scripts/aem.js:596:10)
+    at loadLazy (http://localhost:3327/scripts/scripts.js:158:3)
+    at loadPage (http://localhost:3327/scripts/scripts.js:185:9)
+[   84080ms] TypeError: Cannot read properties of null (reading 'append')
+    at loadFooter (http://localhost:3327/scripts/aem.js:608:10)
+    at loadLazy (http://localhost:3327/scripts/scripts.js:167:3)
+    at async loadPage (http://localhost:3327/scripts/scripts.js:185:3)
