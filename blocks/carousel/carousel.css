@@ -13,17 +13,19 @@
 
 .carousel-slide {
   flex: 0 0 100%;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
   padding: 2rem;
-  height: 400px;
+  box-sizing: border-box;
 }
 
 .carousel-image {
   width: 100%;
   max-width: 600px;
+  min-width: 0;
 }
 
 .carousel-image img {
@@ -33,7 +35,9 @@
 
 .carousel-content {
   text-align: center;
+  width: 100%;
   max-width: 600px;
+  min-width: 0;
 }
 
 .carousel-content h2,
