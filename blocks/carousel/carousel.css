@@ -18,7 +18,9 @@
   align-items: center;
   gap: 1rem;
   padding: 2rem;
-  height: 400px;
+  min-height: 400px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .carousel-image {
@@ -52,7 +54,7 @@
   justify-content: center;
   gap: 0.5rem;
   padding: 1rem 0;
-  max-width: 120px;
+  max-width: none;
   margin: 0 auto;
 }
 
