@@ -30,4 +30,27 @@
     flex: 1;
     order: unset;
   }
+
+  /* Z-pattern variant - alternate image position */
+  .columns.z-pattern > div:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  /* Split 33-66 variant */
+  .columns.split-33-66 > div > div:first-child {
+    flex: 0 0 33.333%;
+  }
+
+  .columns.split-33-66 > div > div:last-child {
+    flex: 0 0 66.667%;
+  }
+
+  /* Split 66-33 variant */
+  .columns.split-66-33 > div > div:first-child {
+    flex: 0 0 66.667%;
+  }
+
+  .columns.split-66-33 > div > div:last-child {
+    flex: 0 0 33.333%;
+  }
 }
