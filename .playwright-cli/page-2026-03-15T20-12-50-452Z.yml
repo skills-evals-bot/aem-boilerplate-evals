@@ -1,0 +1,90 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e5]:
+      - paragraph [ref=e8]:
+        - link "Boilerplate" [ref=e9] [cursor=pointer]:
+          - /url: /
+      - list [ref=e12]:
+        - listitem [ref=e13] [cursor=pointer]:
+          - paragraph [ref=e14]: Default Content
+        - listitem [ref=e15] [cursor=pointer]:
+          - paragraph [ref=e16]: Sample Blocks
+        - listitem [ref=e17]:
+          - paragraph [ref=e18]:
+            - link "Getting Started" [ref=e19] [cursor=pointer]:
+              - /url: https://www.aem.live/developer/tutorial
+        - listitem [ref=e20]:
+          - paragraph [ref=e21]:
+            - link "Documentation" [ref=e22] [cursor=pointer]:
+              - /url: https://www.aem.live/docs/
+      - paragraph [ref=e25]:
+        - link [ref=e26] [cursor=pointer]:
+          - /url: /docs/library/blocks/modals/sample-search
+  - main [ref=e28]:
+    - generic [ref=e29]:
+      - heading "Our Products" [level=2] [ref=e31]
+      - list [ref=e34]:
+        - listitem [ref=e35]:
+          - generic [ref=e36]:
+            - img "Wireless headphones on a desk" [ref=e38]
+            - generic [ref=e39]: Sale
+          - generic [ref=e40]:
+            - heading "Wireless Headphones" [level=3] [ref=e41]
+            - paragraph [ref=e42]: Premium noise-canceling headphones with 30-hour battery life and crystal-clear sound quality.
+            - paragraph [ref=e43]:
+              - link "Shop Now" [ref=e44] [cursor=pointer]:
+                - /url: /products/wireless-headphones
+        - listitem [ref=e45]:
+          - generic [ref=e46]:
+            - img "Smart watch on wrist" [ref=e48]
+            - generic [ref=e49]: New
+          - generic [ref=e50]:
+            - heading "Smart Watch Pro" [level=3] [ref=e51]
+            - paragraph [ref=e52]: Track your fitness, receive notifications, and stay connected with our latest smartwatch.
+            - paragraph [ref=e53]:
+              - link "Learn More" [ref=e54] [cursor=pointer]:
+                - /url: /products/smart-watch
+        - listitem [ref=e55]:
+          - img "Portable speaker on a table" [ref=e58]
+          - generic [ref=e59]:
+            - heading "Portable Speaker" [level=3] [ref=e60]
+            - paragraph [ref=e61]: Waterproof Bluetooth speaker with rich bass and 12-hour playtime for any adventure.
+            - paragraph [ref=e62]:
+              - link "Buy Now" [ref=e63] [cursor=pointer]:
+                - /url: /products/portable-speaker
+        - listitem [ref=e64]:
+          - generic [ref=e65]:
+            - img "Laptop stand on desk" [ref=e67]
+            - generic [ref=e68]: Featured
+          - generic [ref=e69]:
+            - heading "Ergonomic Laptop Stand" [level=3] [ref=e70]
+            - paragraph [ref=e71]: Adjustable aluminum stand that improves posture and keeps your laptop cool.
+            - paragraph [ref=e72]:
+              - link "View Details" [ref=e73] [cursor=pointer]:
+                - /url: /products/laptop-stand
+        - listitem [ref=e74]:
+          - img "Wireless charging pad" [ref=e77]
+          - generic [ref=e78]:
+            - heading "Wireless Charging Pad" [level=3] [ref=e79]
+            - paragraph [ref=e80]: Fast wireless charging for all Qi-enabled devices with sleek minimalist design.
+            - paragraph [ref=e81]:
+              - link "Shop Now" [ref=e82] [cursor=pointer]:
+                - /url: /products/charging-pad
+  - contentinfo [ref=e83]:
+    - generic [ref=e87]:
+      - paragraph [ref=e88]: Copyright © 2021 Adobe. All rights reserved.
+      - paragraph [ref=e89]:
+        - link "Privacy" [ref=e90] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy.html
+        - text: /
+        - link "Terms of Use" [ref=e91] [cursor=pointer]:
+          - /url: https://www.adobe.com/legal/terms.html
+        - text: /
+        - link "Cookie preferences" [ref=e92] [cursor=pointer]:
+          - /url: https://www.adobe.com/#openPrivacy
+        - text: /
+        - link "Do not sell my personal information" [ref=e93] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy/ca-rights.html
+        - text: /
+        - link "AdChoices" [ref=e94] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy/opt-out.html#interest-based-ads

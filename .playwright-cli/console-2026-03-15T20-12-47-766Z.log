@@ -1,0 +1,5 @@
+[      86ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3054/media/product1.jpg?width=750&format=webply&optimize=medium:0
+[     121ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3054/media/product2.jpg?width=750&format=webply&optimize=medium:0
+[     211ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3054/media/product4.jpg?width=750&format=webply&optimize=medium:0
+[     211ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3054/media/product3.jpg?width=750&format=webply&optimize=medium:0
+[     317ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3054/media/product5.jpg?width=750&format=webply&optimize=medium:0
