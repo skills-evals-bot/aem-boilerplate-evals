@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'nonce-aem' 'strict-dynamic' 'unsafe-inline' http: https:; base-uri 'self'; object-src 'none';"
+      move-to-http-header="true"
+    >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Product Cards Demo</title>
+    <meta property="og:title" content="Product Cards Demo">
+    <script nonce="aem" src="/scripts/scripts.js" type="module"></script>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/lazy-styles.css">
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div>
+        <h1>Product Cards Demo</h1>
+        <p>Responsive product card grid with optional image badges.</p>
+      </div>
+      <div>
+        <div class="product-cards">
+          <div>
+            <div>
+              <picture>
+                <img src="https://picsum.photos/id/26/800/600" alt="Aurora Headphones in silver">
+              </picture>
+            </div>
+            <div>
+              <h3>Aurora Headphones</h3>
+              <p>Wireless over-ear headphones with active noise cancelation and 30-hour battery life.</p>
+              <p><a href="/products/aurora-headphones">Shop now</a></p>
+            </div>
+            <div>Sale</div>
+          </div>
+          <div>
+            <div>
+              <picture>
+                <img src="https://picsum.photos/id/96/800/600" alt="Summit Bottle in matte black">
+              </picture>
+            </div>
+            <div>
+              <h3>Summit Bottle</h3>
+              <p>Double-wall insulated bottle designed to keep drinks cold all day on the move.</p>
+              <p><a href="/products/summit-bottle">View details</a></p>
+            </div>
+            <div>New</div>
+          </div>
+          <div>
+            <div>
+              <picture>
+                <img src="https://picsum.photos/id/1060/800/600" alt="Atlas Backpack with front pocket">
+              </picture>
+            </div>
+            <div>
+              <h3>Atlas Backpack</h3>
+              <p>Weather-ready commuter backpack with padded laptop sleeve and expandable storage.</p>
+              <p><a href="/products/atlas-backpack">See features</a></p>
+            </div>
+            <div>Featured</div>
+          </div>
+          <div>
+            <div>
+              <picture>
+                <img src="https://picsum.photos/id/48/800/600" alt="Orbit Desk Lamp on wood table">
+              </picture>
+            </div>
+            <div>
+              <h3>Orbit Desk Lamp</h3>
+              <p>Compact task lamp with adjustable warmth settings and a low-profile aluminum base.</p>
+              <p><a href="/products/orbit-desk-lamp">Learn more</a></p>
+            </div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
