@@ -8,17 +8,19 @@
 
 .carousel-track {
   display: flex;
-  transition: transform 0.5s ease;
+  align-items: flex-start;
+  transition: transform 0.5s ease, height 0.3s ease;
 }
 
 .carousel-slide {
   flex: 0 0 100%;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  padding: 2rem;
-  height: 400px;
+  padding: 1rem 2.5rem 1.5rem;
+  min-height: 400px;
 }
 
 .carousel-image {
@@ -96,4 +98,10 @@
 .carousel-prev:hover,
 .carousel-next:hover {
   background: rgb(0 0 0 / 80%);
+}
+
+@media (width >= 600px) {
+  .carousel-slide {
+    padding: 2rem;
+  }
 }

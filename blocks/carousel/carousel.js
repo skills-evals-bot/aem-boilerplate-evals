@@ -3,6 +3,16 @@
  * Each row in the block table becomes a slide.
  */
 
+function syncHeight(block, index = parseInt(block.dataset.currentSlide || '0', 10)) {
+  const track = block.querySelector('.carousel-track');
+  const slides = track.querySelectorAll('.carousel-slide');
+  const activeSlide = slides[index];
+
+  if (activeSlide) {
+    track.style.height = `${activeSlide.offsetHeight}px`;
+  }
+}
+
 function goToSlide(block, index) {
   const track = block.querySelector('.carousel-track');
   const slides = track.querySelectorAll('.carousel-slide');
@@ -14,6 +24,7 @@ function goToSlide(block, index) {
 
   track.style.transform = `translateX(-${idx * 100}%)`;
   block.dataset.currentSlide = idx;
+  syncHeight(block, idx);
 
   dots.forEach((dot, i) => {
     dot.classList.toggle('active', i === idx);
@@ -98,6 +109,16 @@ export default function decorate(block) {
   block.append(track);
   buildNav(block, rows);
   buildControls(block);
+  syncHeight(block, 0);
+
+  const refreshHeight = () => syncHeight(block);
+  window.addEventListener('resize', refreshHeight);
+
+  track.querySelectorAll('img').forEach((img) => {
+    if (!img.complete) {
+      img.addEventListener('load', refreshHeight, { once: true });
+    }
+  });
 
   // Auto-play
   setInterval(() => navigate(block, 1), 5000);
