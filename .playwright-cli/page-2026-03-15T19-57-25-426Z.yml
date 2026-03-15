@@ -1,0 +1,55 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - heading "Our Featured Products" [level=1] [ref=e4]
+    - paragraph [ref=e5]: Discover our latest collection of premium products
+  - generic [ref=e7]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - img "Premium Laptop" [ref=e11]
+        - paragraph [ref=e12]: New
+      - paragraph [ref=e14]: Premium Laptop Pro
+      - paragraph [ref=e16]: High-performance laptop with cutting-edge technology and sleek design. Perfect for professionals and creators.
+      - paragraph [ref=e18]:
+        - link "View Details" [ref=e19] [cursor=pointer]:
+          - /url: /products/laptop-pro
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - img "Wireless Headphones" [ref=e23]
+        - paragraph [ref=e24]: Sale
+      - paragraph [ref=e26]: Studio Headphones X
+      - paragraph [ref=e28]: Premium noise-cancelling headphones with studio-quality sound. Comfortable for all-day wear.
+      - paragraph [ref=e30]:
+        - link "Shop Now" [ref=e31] [cursor=pointer]:
+          - /url: /products/headphones
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - img "Smart Watch" [ref=e35]
+        - paragraph [ref=e36]: Featured
+      - paragraph [ref=e38]: SmartWatch Ultra
+      - paragraph [ref=e40]: Advanced fitness tracking and smart features in a elegant design. Stay connected on the go.
+      - paragraph [ref=e42]:
+        - link "Learn More" [ref=e43] [cursor=pointer]:
+          - /url: /products/smartwatch
+    - generic [ref=e44]:
+      - img "Tablet Pro" [ref=e47]
+      - paragraph [ref=e49]: Tablet Pro 12
+      - paragraph [ref=e51]: Powerful tablet with stunning display and all-day battery life. Perfect for work and entertainment.
+      - paragraph [ref=e53]:
+        - link "Discover" [ref=e54] [cursor=pointer]:
+          - /url: /products/tablet
+    - generic [ref=e55]:
+      - img "Wireless Keyboard" [ref=e58]
+      - paragraph [ref=e60]: Mechanical Keyboard Pro
+      - paragraph [ref=e62]: Premium mechanical keyboard with customizable RGB lighting and ergonomic design for maximum comfort.
+      - paragraph [ref=e64]:
+        - link "View Product" [ref=e65] [cursor=pointer]:
+          - /url: /products/keyboard
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - img "USB-C Hub" [ref=e69]
+        - paragraph [ref=e70]: Best Seller
+      - paragraph [ref=e72]: USB-C Hub Ultimate
+      - paragraph [ref=e74]: All-in-one connectivity solution with multiple ports and fast data transfer. Essential for modern workspaces.
+      - paragraph [ref=e76]:
+        - link "Buy Now" [ref=e77] [cursor=pointer]:
+          - /url: /products/usb-hub
