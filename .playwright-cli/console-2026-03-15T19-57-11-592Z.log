@@ -1,0 +1,6 @@
+[      50ms] TypeError: Cannot read properties of null (reading 'dataset')
+    at loadSection (http://localhost:3503/scripts/aem.js:636:26)
+    at loadEager (http://localhost:3503/scripts/scripts.js:140:11)
+    at loadPage (http://localhost:3503/scripts/scripts.js:184:9)
+    at http://localhost:3503/scripts/scripts.js:189:1
+[      50ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3503/drafts/media_placeholder.jpeg:0
