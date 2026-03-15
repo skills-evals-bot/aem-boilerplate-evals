@@ -1,0 +1,121 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e5]:
+      - paragraph [ref=e8]:
+        - link "Boilerplate" [ref=e9] [cursor=pointer]:
+          - /url: /
+      - list [ref=e12]:
+        - listitem [ref=e13] [cursor=pointer]:
+          - paragraph [ref=e14]: Default Content
+        - listitem [ref=e15] [cursor=pointer]:
+          - paragraph [ref=e16]: Sample Blocks
+        - listitem [ref=e17]:
+          - paragraph [ref=e18]:
+            - link "Getting Started" [ref=e19] [cursor=pointer]:
+              - /url: https://www.aem.live/developer/tutorial
+        - listitem [ref=e20]:
+          - paragraph [ref=e21]:
+            - link "Documentation" [ref=e22] [cursor=pointer]:
+              - /url: https://www.aem.live/docs/
+      - paragraph [ref=e25]:
+        - link [ref=e26] [cursor=pointer]:
+          - /url: /docs/library/blocks/modals/sample-search
+  - main [ref=e28]:
+    - generic [ref=e30]:
+      - heading "Product Cards Block Test" [level=1] [ref=e31]
+      - paragraph [ref=e32]: This page demonstrates the product cards block with various configurations.
+    - list [ref=e36]:
+      - listitem [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e39]: Sale
+          - img "Premium Wireless Headphones" [ref=e41]
+        - generic [ref=e42]:
+          - heading "Premium Wireless Headphones" [level=2] [ref=e43]
+          - paragraph [ref=e44]: Experience crystal-clear audio with our top-of-the-line wireless headphones. Featuring active noise cancellation and 30-hour battery life.
+          - paragraph [ref=e45]:
+            - link "Shop Now" [ref=e46] [cursor=pointer]:
+              - /url: /products/wireless-headphones
+      - listitem [ref=e47]:
+        - img "Smart Fitness Watch" [ref=e50]
+        - generic [ref=e51]:
+          - heading "Smart Fitness Watch" [level=2] [ref=e52]
+          - paragraph [ref=e53]: Track your health and fitness goals with precision. Water-resistant design with heart rate monitoring and GPS tracking.
+          - paragraph [ref=e54]:
+            - link "Learn More" [ref=e55] [cursor=pointer]:
+              - /url: /products/fitness-watch
+      - listitem [ref=e56]:
+        - generic [ref=e57]:
+          - generic [ref=e58]: New
+          - img "Portable Bluetooth Speaker" [ref=e60]
+        - generic [ref=e61]:
+          - heading "Portable Bluetooth Speaker" [level=2] [ref=e62]
+          - paragraph [ref=e63]: Powerful sound in a compact design. Perfect for outdoor adventures with 20-hour battery and IPX7 waterproof rating.
+          - paragraph [ref=e64]:
+            - link "Buy Now" [ref=e65] [cursor=pointer]:
+              - /url: /products/bluetooth-speaker
+      - listitem [ref=e66]:
+        - generic [ref=e67]:
+          - generic [ref=e68]: Featured
+          - img "4K Action Camera" [ref=e70]
+        - generic [ref=e71]:
+          - heading "4K Action Camera" [level=2] [ref=e72]
+          - paragraph [ref=e73]: Capture your adventures in stunning 4K resolution. Built tough with image stabilization and voice control features.
+          - paragraph [ref=e74]:
+            - link "View Details" [ref=e75] [cursor=pointer]:
+              - /url: /products/action-camera
+      - listitem [ref=e76]:
+        - img "Wireless Charging Pad" [ref=e79]
+        - generic [ref=e80]:
+          - heading "Wireless Charging Pad" [level=2] [ref=e81]
+          - paragraph [ref=e82]: Fast wireless charging for all your devices. Sleek design with LED indicator and overheat protection.
+          - paragraph [ref=e83]:
+            - link "Add to Cart" [ref=e84] [cursor=pointer]:
+              - /url: /products/charging-pad
+      - listitem [ref=e85]:
+        - img "USB-C Hub" [ref=e88]
+        - generic [ref=e89]:
+          - heading "Multi-Port USB-C Hub" [level=2] [ref=e90]
+          - paragraph [ref=e91]: Expand your connectivity with 7 ports including HDMI, USB 3.0, and SD card reader. Aluminum construction for durability.
+          - paragraph [ref=e92]:
+            - link "Shop Now" [ref=e93] [cursor=pointer]:
+              - /url: /products/usb-hub
+    - generic [ref=e95]:
+      - heading "Testing Two Cards" [level=2] [ref=e96]
+      - paragraph [ref=e97]: Testing the block with only two cards to verify responsive behavior.
+    - list [ref=e101]:
+      - listitem [ref=e102]:
+        - generic [ref=e103]:
+          - generic [ref=e104]: Limited Edition
+          - img "Limited Edition Keyboard" [ref=e106]
+        - generic [ref=e107]:
+          - heading "Mechanical Gaming Keyboard" [level=2] [ref=e108]
+          - paragraph [ref=e109]: Limited edition mechanical keyboard with customizable RGB lighting and premium switches.
+          - paragraph [ref=e110]:
+            - link "Pre-Order Now" [ref=e111] [cursor=pointer]:
+              - /url: /products/gaming-keyboard
+      - listitem [ref=e112]:
+        - img "Ergonomic Mouse" [ref=e115]
+        - generic [ref=e116]:
+          - heading "Ergonomic Wireless Mouse" [level=2] [ref=e117]
+          - paragraph [ref=e118]: Designed for comfort during long work sessions. Precision tracking with programmable buttons.
+          - paragraph [ref=e119]:
+            - link "Learn More" [ref=e120] [cursor=pointer]:
+              - /url: /products/wireless-mouse
+  - contentinfo [ref=e121]:
+    - generic [ref=e125]:
+      - paragraph [ref=e126]: Copyright © 2021 Adobe. All rights reserved.
+      - paragraph [ref=e127]:
+        - link "Privacy" [ref=e128] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy.html
+        - text: /
+        - link "Terms of Use" [ref=e129] [cursor=pointer]:
+          - /url: https://www.adobe.com/legal/terms.html
+        - text: /
+        - link "Cookie preferences" [ref=e130] [cursor=pointer]:
+          - /url: https://www.adobe.com/#openPrivacy
+        - text: /
+        - link "Do not sell my personal information" [ref=e131] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy/ca-rights.html
+        - text: /
+        - link "AdChoices" [ref=e132] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy/opt-out.html#interest-based-ads
