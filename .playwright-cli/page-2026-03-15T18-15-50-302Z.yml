@@ -1,0 +1,49 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - img "Mountain landscape at sunrise" [ref=e7]
+    - generic [ref=e8]:
+      - heading "Mountain Retreat" [level=2] [ref=e9]
+      - paragraph [ref=e10]: Escape to the peaks for a weekend of fresh air and stunning views.
+      - paragraph [ref=e11]:
+        - link "Learn more" [ref=e12] [cursor=pointer]:
+          - /url: /retreats/mountain
+  - generic [ref=e13]:
+    - img "Ocean waves on a sandy beach" [ref=e16]
+    - generic [ref=e17]:
+      - heading "Coastal Getaway" [level=2] [ref=e18]
+      - paragraph [ref=e19]: Relax on pristine beaches with crystal clear water.
+      - paragraph [ref=e20]:
+        - link "Book now" [ref=e21] [cursor=pointer]:
+          - /url: /getaways/coastal
+  - generic [ref=e22]:
+    - img "Dense forest trail in autumn" [ref=e25]
+    - generic [ref=e26]:
+      - heading "Forest Adventure" [level=2] [ref=e27]
+      - paragraph [ref=e28]: Explore winding trails through ancient forests, discover hidden waterfalls, experience wildlife up close, and reconnect with nature on this guided multi-day hiking expedition through some of the most beautiful and unspoiled wilderness areas in the region. Our expert guides will lead you through old-growth groves, along ridgeline paths with panoramic views, and to secluded camping spots where you can fall asleep under the stars. Whether you are a seasoned hiker or a curious beginner, this adventure offers something for everyone.
+      - paragraph [ref=e29]:
+        - link "Explore" [ref=e30] [cursor=pointer]:
+          - /url: /adventures/forest
+  - generic [ref=e31]:
+    - img "City skyline at night" [ref=e34]
+    - generic [ref=e35]:
+      - heading "Urban Discovery" [level=2] [ref=e36]
+      - paragraph [ref=e37]: Experience the energy of the city with curated tours and local favorites.
+      - paragraph [ref=e38]:
+        - link "See tours" [ref=e39] [cursor=pointer]:
+          - /url: /tours/urban
+  - generic [ref=e40]:
+    - img "Desert dunes at sunset" [ref=e43]
+    - generic [ref=e44]:
+      - heading "Desert Expedition" [level=2] [ref=e45]
+      - paragraph [ref=e46]: Traverse golden dunes and camp under endless desert skies.
+      - paragraph [ref=e47]:
+        - link "Plan your trip" [ref=e48] [cursor=pointer]:
+          - /url: /expeditions/desert
+  - generic [ref=e49]:
+    - img "Snowy mountain village" [ref=e52]
+    - generic [ref=e53]:
+      - heading "Winter Wonderland" [level=2] [ref=e54]
+      - paragraph [ref=e55]: Cozy cabins, fresh powder, and hot cocoa by the fire.
+      - paragraph [ref=e56]:
+        - link "View packages" [ref=e57] [cursor=pointer]:
+          - /url: /seasonal/winter
