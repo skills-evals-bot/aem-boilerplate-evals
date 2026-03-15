@@ -1,0 +1,107 @@
+.product-cards > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.product-cards > ul > li {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  border: 1px solid #d9e0e7;
+  border-radius: 20px;
+  overflow: hidden;
+  background: linear-gradient(180deg, #fff 0%, #f6f8fb 100%);
+  box-shadow: 0 18px 36px rgb(17 24 39 / 10%);
+}
+
+.product-cards .product-cards-card-image {
+  position: relative;
+  background: #ebf1f5;
+  line-height: 0;
+}
+
+.product-cards .product-cards-card-image picture,
+.product-cards .product-cards-card-image img {
+  display: block;
+  width: 100%;
+}
+
+.product-cards .product-cards-card-image img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.product-cards .product-cards-card-badge {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  margin: 0;
+  border-radius: 999px;
+  padding: 6px 12px;
+  background-color: rgb(19 19 19 / 88%);
+  color: #fff;
+  font-size: var(--body-font-size-xs);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.product-cards .product-cards-card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 12px;
+  padding: 24px;
+}
+
+.product-cards .product-cards-card-title,
+.product-cards .product-cards-card-description,
+.product-cards .product-cards-card-cta {
+  margin: 0;
+}
+
+.product-cards .product-cards-card-title {
+  font-size: var(--heading-font-size-s);
+  line-height: 1.2;
+}
+
+.product-cards .product-cards-card-description {
+  color: #4a5565;
+  font-size: var(--body-font-size-s);
+}
+
+.product-cards .product-cards-card-cta {
+  display: inline-flex;
+  align-items: center;
+  margin-top: auto;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.product-cards .product-cards-card-cta::after {
+  content: '\2192';
+  margin-left: 8px;
+  transition: transform 160ms ease;
+}
+
+.product-cards .product-cards-card-cta:hover::after,
+.product-cards .product-cards-card-cta:focus-visible::after {
+  transform: translateX(4px);
+}
+
+@media (width >= 600px) {
+  .product-cards > ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (width >= 900px) {
+  .product-cards > ul {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
