@@ -1,0 +1,79 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e5]:
+      - paragraph [ref=e8]:
+        - link "Boilerplate" [ref=e9] [cursor=pointer]:
+          - /url: /
+      - list [ref=e12]:
+        - listitem [ref=e13] [cursor=pointer]:
+          - paragraph [ref=e14]: Default Content
+        - listitem [ref=e15] [cursor=pointer]:
+          - paragraph [ref=e16]: Sample Blocks
+        - listitem [ref=e17]:
+          - paragraph [ref=e18]:
+            - link "Getting Started" [ref=e19] [cursor=pointer]:
+              - /url: https://www.aem.live/developer/tutorial
+        - listitem [ref=e20]:
+          - paragraph [ref=e21]:
+            - link "Documentation" [ref=e22] [cursor=pointer]:
+              - /url: https://www.aem.live/docs/
+      - paragraph [ref=e25]:
+        - link [ref=e26] [cursor=pointer]:
+          - /url: /docs/library/blocks/modals/sample-search
+  - main [ref=e28]:
+    - generic [ref=e30]:
+      - heading "Product Cards" [level=1] [ref=e31]
+      - paragraph [ref=e32]: Responsive product card grid with optional image badges.
+    - list [ref=e36]:
+      - listitem [ref=e37]:
+        - generic [ref=e38]:
+          - img "Silver phone with a bright display" [ref=e40]
+          - paragraph [ref=e41]: New
+        - generic [ref=e42]:
+          - heading "Summit Phone X" [level=3] [ref=e43]
+          - paragraph [ref=e44]: A durable flagship phone with a vivid OLED display and all-day battery life.
+          - link "Shop now →" [ref=e45] [cursor=pointer]:
+            - /url: /products/summit-phone-x
+      - listitem [ref=e46]:
+        - generic [ref=e47]:
+          - img "Wireless headphones resting on a neutral surface" [ref=e49]
+          - paragraph [ref=e50]: Sale
+        - generic [ref=e51]:
+          - heading "Pulse Headphones" [level=3] [ref=e52]
+          - paragraph [ref=e53]: Immersive noise cancellation with a lightweight fit for work, travel, and workouts.
+          - link "See details →" [ref=e54] [cursor=pointer]:
+            - /url: /products/pulse-headphones
+      - listitem [ref=e55]:
+        - generic [ref=e56]:
+          - img "Smartwatch showing a workout summary" [ref=e58]
+          - paragraph [ref=e59]: Featured
+        - generic [ref=e60]:
+          - heading "Atlas Watch" [level=3] [ref=e61]
+          - paragraph [ref=e62]: Track training, sleep, and daily health metrics with a compact premium smartwatch.
+          - link "Explore →" [ref=e63] [cursor=pointer]:
+            - /url: /products/atlas-watch
+      - listitem [ref=e64]:
+        - img "Portable speaker on a wooden tabletop" [ref=e67]
+        - generic [ref=e68]:
+          - heading "Drift Speaker" [level=3] [ref=e69]
+          - paragraph [ref=e70]: Room-filling sound, weather resistance, and a compact form factor for every trip.
+          - link "Learn more →" [ref=e71] [cursor=pointer]:
+            - /url: /products/drift-speaker
+  - contentinfo [ref=e72]:
+    - generic [ref=e76]:
+      - paragraph [ref=e77]: Copyright © 2021 Adobe. All rights reserved.
+      - paragraph [ref=e78]:
+        - link "Privacy" [ref=e79] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy.html
+        - text: /
+        - link "Terms of Use" [ref=e80] [cursor=pointer]:
+          - /url: https://www.adobe.com/legal/terms.html
+        - text: /
+        - link "Cookie preferences" [ref=e81] [cursor=pointer]:
+          - /url: https://www.adobe.com/#openPrivacy
+        - text: /
+        - link "Do not sell my personal information" [ref=e82] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy/ca-rights.html
+        - text: /
+        - link "AdChoices" [ref=e83] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy/opt-out.html#interest-based-ads
