@@ -1,0 +1,62 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - heading "Our Products" [level=2] [ref=e6]
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - paragraph [ref=e12]:
+            - img "Wireless Headphones" [ref=e14]
+            - paragraph: Sale
+          - generic [ref=e15]:
+            - heading "Wireless Headphones" [level=3] [ref=e16]
+            - paragraph [ref=e17]: Premium noise-cancelling headphones with 30-hour battery life and crystal clear audio.
+            - paragraph [ref=e18]:
+              - link "Shop Now" [ref=e19] [cursor=pointer]:
+                - /url: /products/headphones
+        - listitem [ref=e20]:
+          - paragraph [ref=e22]:
+            - img "Smart Watch" [ref=e24]
+            - paragraph: New
+          - generic [ref=e25]:
+            - heading "Smart Watch" [level=3] [ref=e26]
+            - paragraph [ref=e27]: Track your fitness goals with GPS, heart rate monitor, and 7-day battery life.
+            - paragraph [ref=e28]:
+              - link "Learn More" [ref=e29] [cursor=pointer]:
+                - /url: /products/smartwatch
+        - listitem [ref=e30]:
+          - paragraph [ref=e32]:
+            - img "Portable Speaker" [ref=e34]
+            - paragraph: Featured
+          - generic [ref=e35]:
+            - heading "Portable Speaker" [level=3] [ref=e36]
+            - paragraph [ref=e37]: Waterproof Bluetooth speaker with 360-degree sound and 12-hour playtime.
+            - paragraph [ref=e38]:
+              - link "Buy Now" [ref=e39] [cursor=pointer]:
+                - /url: /products/speaker
+        - listitem [ref=e40]:
+          - img "Laptop Stand" [ref=e43]
+          - generic [ref=e44]:
+            - heading "Laptop Stand" [level=3] [ref=e45]
+            - paragraph [ref=e46]: Ergonomic aluminum stand with adjustable height for comfortable work.
+            - paragraph [ref=e47]:
+              - link "View Details" [ref=e48] [cursor=pointer]:
+                - /url: /products/laptop-stand
+  - contentinfo [ref=e49]:
+    - generic [ref=e53]:
+      - paragraph [ref=e54]: Copyright © 2021 Adobe. All rights reserved.
+      - paragraph [ref=e55]:
+        - link "Privacy" [ref=e56] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy.html
+        - text: /
+        - link "Terms of Use" [ref=e57] [cursor=pointer]:
+          - /url: https://www.adobe.com/legal/terms.html
+        - text: /
+        - link "Cookie preferences" [ref=e58] [cursor=pointer]:
+          - /url: https://www.adobe.com/#openPrivacy
+        - text: /
+        - link "Do not sell my personal information" [ref=e59] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy/ca-rights.html
+        - text: /
+        - link "AdChoices" [ref=e60] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy/opt-out.html#interest-based-ads
