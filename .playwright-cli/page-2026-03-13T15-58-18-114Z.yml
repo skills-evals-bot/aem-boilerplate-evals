@@ -1,0 +1,48 @@
+- generic [active] [ref=e1]:
+  - banner
+  - main [ref=e2]:
+    - heading "Our Products" [level=1] [ref=e4]
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - img "Wireless headphones on a desk" [ref=e10]
+        - generic [ref=e11]:
+          - heading "Wireless Headphones" [level=3] [ref=e12]
+          - paragraph [ref=e13]: Premium noise-canceling headphones with 30-hour battery life and crystal-clear audio.
+          - paragraph [ref=e14]:
+            - strong [ref=e15]:
+              - link "Shop Now" [ref=e16] [cursor=pointer]:
+                - /url: /products/headphones
+          - paragraph [ref=e17]:
+            - strong [ref=e18]: Sale
+      - generic [ref=e19]:
+        - img "Smart watch on a wrist" [ref=e22]
+        - generic [ref=e23]:
+          - heading "Smart Watch Pro" [level=3] [ref=e24]
+          - paragraph [ref=e25]: Track your fitness goals with GPS, heart rate monitoring, and a stunning OLED display.
+          - paragraph [ref=e26]:
+            - strong [ref=e27]:
+              - link "Learn More" [ref=e28] [cursor=pointer]:
+                - /url: /products/smart-watch
+          - paragraph [ref=e29]:
+            - strong [ref=e30]: New
+      - generic [ref=e31]:
+        - img "Portable speaker in outdoor setting" [ref=e34]
+        - generic [ref=e35]:
+          - heading "Portable Speaker" [level=3] [ref=e36]
+          - paragraph [ref=e37]: Waterproof Bluetooth speaker with deep bass and 12-hour playtime for any adventure.
+          - paragraph [ref=e38]:
+            - strong [ref=e39]:
+              - link "Buy Now" [ref=e40] [cursor=pointer]:
+                - /url: /products/speaker
+      - generic [ref=e41]:
+        - img "Laptop on a wooden table" [ref=e44]
+        - generic [ref=e45]:
+          - heading "UltraBook Laptop" [level=3] [ref=e46]
+          - paragraph [ref=e47]: Thin, light, and powerful. Perfect for professionals who need performance on the go.
+          - paragraph [ref=e48]:
+            - strong [ref=e49]:
+              - link "View Details" [ref=e50] [cursor=pointer]:
+                - /url: /products/laptop
+          - paragraph [ref=e51]:
+            - strong [ref=e52]: Featured
+  - contentinfo
